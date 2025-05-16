@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: mariaHuis
+hasUrls: true
+language: en-US
+name: Mariahuis
+primary: true
+siteGroup: 43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8 # multisite cms
+sortOrder: 1
