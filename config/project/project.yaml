@@ -1,0 +1,24 @@
+dateModified: 1747386724
+email:
+  fromEmail: akg@gmail.com
+  fromName: 'multisite cms'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
+    7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
+    8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
+system:
+  edition: solo
+  live: true
+  name: 'multisite cms'
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
