@@ -1,0 +1,40 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    handle: indexPage
+    name: 'Index page'
+    uid: b8b17aba-5967-4e27-b343-da5efbf86394 # Landing page
+handle: landingPage
+maxAuthors: 1
+name: 'Landing page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  2586cd74-aa98-4355-81dd-4d3226fe9650: # Sint-Coleta
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+  7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+  8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+type: single

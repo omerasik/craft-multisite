@@ -1,4 +1,4 @@
-dateModified: 1747386724
+dateModified: 1747404994
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -6,9 +6,14 @@ email:
 meta:
   __names__:
     43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    94e37b05-440d-42aa-81fe-43d439b3c0ac: 'Landing page' # Landing page
+    0127a613-d264-4c23-8aa4-4a4468b130c1: 'Intro text' # Intro text
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
     8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
+    b8b17aba-5967-4e27-b343-da5efbf86394: 'Landing page' # Landing page
+    bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
+    d8b5f793-ddff-429f-840f-4943348961d6: 'Intro title' # Intro title
 system:
   edition: solo
   live: true

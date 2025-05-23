@@ -1,8 +1,8 @@
-baseUrl: $CULTUUR_COLETTE_URL
+baseUrl: /cultuur-colette
 enabled: '1'
 handle: cultuurColette
 hasUrls: true
-language: en-US
+language: nl-BE
 name: 'Cultuur Colette'
 primary: false
 siteGroup: 43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8 # multisite cms
