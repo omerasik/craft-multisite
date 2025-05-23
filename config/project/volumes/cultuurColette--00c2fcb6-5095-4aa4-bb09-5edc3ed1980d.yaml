@@ -1,0 +1,50 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  4e6966a6-ab30-4cb9-9a42-b314f7237422:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-23T08:48:08+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 5761258a-3d7f-41cd-ad39-52b99fee6fd9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 01f7e0b4-a23b-46ed-9624-ecc2aaa63327
+        userCondition: null
+fs: cultuurColette
+handle: cultuurColette
+name: 'cultuur colette'
+sortOrder: 5
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

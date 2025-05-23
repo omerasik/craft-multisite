@@ -1,14 +1,55 @@
-dateModified: 1747386724
+dateModified: 1748008131
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  cultuurColette:
+    hasUrls: true
+    name: 'cultuur colette'
+    settings:
+      path: '@webroot/assets/colette'
+    type: craft\fs\Local
+    url: '@web/assets/colette'
+  mariahuis:
+    hasUrls: true
+    name: mariahuis
+    settings:
+      path: '@webroot/assets/mariahuis'
+    type: craft\fs\Local
+    url: '@web/assets/mariahuis'
+  sintColeta:
+    hasUrls: true
+    name: sint-coleta
+    settings:
+      path: '@webroot/assets/sint-coleta'
+    type: craft\fs\Local
+    url: '@web/assets/sint-coleta'
 meta:
   __names__:
+    00b62958-607c-490b-a902-68a95457ac5f: 'Intro image' # Intro image
+    00c2fcb6-5095-4aa4-bb09-5edc3ed1980d: 'cultuur colette' # cultuur colette
+    3a7d22ec-c00d-403d-a62c-b10ebabe0659: 'About page' # About page
+    3e09f15c-a319-47e1-9a7f-2d49b49e0ec3: 'About page' # About page
     43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    46d9a533-bd90-4c0c-9894-31b0e8502e04: 'About title' # About title
+    94e37b05-440d-42aa-81fe-43d439b3c0ac: 'Home page' # Home page
+    0127a613-d264-4c23-8aa4-4a4468b130c1: 'Intro text' # Intro text
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
+    574815ea-8309-4923-b4ef-27d7dd272184: sint-coleta # sint-coleta
     8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
+    b8b17aba-5967-4e27-b343-da5efbf86394: 'Home page' # Home page
+    bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
+    d8b5f793-ddff-429f-840f-4943348961d6: 'Intro title' # Intro title
+    ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple
+    e3b18acb-2d5b-4c4c-a437-f2cfff04562d: mariahuis # mariahuis
+    ee5b4ae4-8d92-417a-b303-0583ffa2c50a: 'About text' # About text
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
