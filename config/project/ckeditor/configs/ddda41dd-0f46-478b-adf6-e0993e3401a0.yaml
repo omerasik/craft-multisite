@@ -1,0 +1,29 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+name: Simple
+options:
+  fontSize:
+    options:
+      - tiny
+      - small
+      - big
+      - huge
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - italic
+  - link
+  - bulletedList
+  - numberedList
+  - insertImage
+  - todoList
+  - fontSize
+  - underline
+  - outdent
+  - indent

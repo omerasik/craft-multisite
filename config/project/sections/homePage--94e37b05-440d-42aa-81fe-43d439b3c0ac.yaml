@@ -4,10 +4,10 @@ entryTypes:
   -
     handle: indexPage
     name: 'Index page'
-    uid: b8b17aba-5967-4e27-b343-da5efbf86394 # Landing page
-handle: landingPage
+    uid: b8b17aba-5967-4e27-b343-da5efbf86394 # Home page
+handle: homePage
 maxAuthors: 1
-name: 'Landing page'
+name: 'Home page'
 previewTargets:
   -
     __assoc__:
