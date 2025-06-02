@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: introTitle
+handle: navLabel
 instructions: null
-name: 'Intro title'
+name: 'Nav Label'
 searchable: false
 settings:
   byteLimit: null

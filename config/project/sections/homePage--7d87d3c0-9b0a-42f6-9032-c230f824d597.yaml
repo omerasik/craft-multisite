@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 3a7d22ec-c00d-403d-a62c-b10ebabe0659 # About page
-handle: aboutPage
+    uid: 7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5 # Home page
+handle: homePage
 maxAuthors: 1
-name: 'About page'
+name: 'Home page'
 previewTargets:
   -
     __assoc__:
@@ -23,16 +23,16 @@ siteSettings:
   2586cd74-aa98-4355-81dd-4d3226fe9650: # Sint-Coleta
     enabledByDefault: true
     hasUrls: true
-    template: _pages/_about.twig
-    uriFormat: about
+    template: index.twig
+    uriFormat: __home__
   7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
     enabledByDefault: true
     hasUrls: true
-    template: _pages/_about.twig
-    uriFormat: about
+    template: index.twig
+    uriFormat: __home__
   8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
     enabledByDefault: true
     hasUrls: true
-    template: _pages/_about.twig
-    uriFormat: about
+    template: index.twig
+    uriFormat: __home__
 type: single
