@@ -1,0 +1,18 @@
+<header>
+  <nav>
+    <ul>
+      {% set navItems = craft.entries.section('navStructuur').level(1).all() %}
+
+      {% for item in navItems %}
+        {% set target = item.navEntry.one() %}
+        {% if target %}
+          <li>
+            <a href="{{ target.url }}">
+              {{ item.navLabel ?: target.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
