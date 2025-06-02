@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  cf28561b-56fa-4af7-95d6-80379b657cb2:
+  d3ce2463-4eed-4f3a-b6c3-abb0e5dc5193:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-05-23T14:51:17+00:00'
+            dateAdded: '2025-05-23T15:16:13+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,15 +31,15 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 47fea052-d489-42e4-b598-ab54762d2611
+            uid: f39eef6b-29be-4056-a66f-fe916059e1d4
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-23T15:15:03+00:00'
+            dateAdded: '2025-05-23T15:17:46+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 8b9d46df-ec83-4743-80fe-f154f25e462d # Intro title
+            fieldUid: b856c8d8-5706-4ebc-913c-61a7cadc96c8 # About title
             handle: null
             includeInCards: false
             instructions: null
@@ -48,15 +48,15 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8173f931-7055-46a1-8e5f-0d681be8bccf
+            uid: 99c83c3c-2f1a-4b6d-906d-14ddd6777f92
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-23T14:52:47+00:00'
+            dateAdded: '2025-05-23T15:17:46+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 0127a613-d264-4c23-8aa4-4a4468b130c1 # Intro text
+            fieldUid: ee5b4ae4-8d92-417a-b303-0583ffa2c50a # About text
             handle: null
             includeInCards: false
             instructions: null
@@ -65,17 +65,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 60e0b755-8c02-4c69-ae7e-0804f4580ac7
+            uid: 8f7d4017-7952-4deb-a22d-fad5d97cf2fd
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5efdd8d6-6ea5-472e-ba59-10d3246b3775
+        uid: 4a72202d-d774-4e4c-be33-c231827af448
         userCondition: null
-handle: homePage
+handle: aboutPage
 hasTitleField: true
 icon: null
-name: 'Home page'
+name: 'About page'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
