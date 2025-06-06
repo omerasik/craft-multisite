@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: map
+instructions: null
+name: map
+searchable: false
+settings:
+  url: ''
+translationKeyFormat: null
+translationMethod: site
+type: wrav\oembed\fields\OembedField
