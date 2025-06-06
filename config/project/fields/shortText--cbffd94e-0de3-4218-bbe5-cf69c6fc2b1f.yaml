@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: aboutTitle
+handle: shortText
 instructions: null
-name: 'About title'
+name: Shorttext
 searchable: false
 settings:
   availableTransforms: ''

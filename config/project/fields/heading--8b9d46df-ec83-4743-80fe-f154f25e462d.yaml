@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: introTitle
+handle: heading
 instructions: null
-name: 'Intro title'
+name: Heading
 searchable: false
 settings:
   availableTransforms: ''

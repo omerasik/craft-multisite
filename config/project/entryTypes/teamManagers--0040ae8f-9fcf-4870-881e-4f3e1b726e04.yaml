@@ -1,6 +1,6 @@
-color: sky
+color: yellow
 fieldLayouts:
-  cf28561b-56fa-4af7-95d6-80379b657cb2:
+  6f98b856-21e9-408e-886b-e68d9ab212f5:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-05-23T14:51:17+00:00'
+            dateAdded: '2025-06-06T10:12:48+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,15 +31,15 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 47fea052-d489-42e4-b598-ab54762d2611
+            uid: 41999117-b29a-4b8d-9821-17cb7ef87a0b
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-23T15:15:03+00:00'
+            dateAdded: '2025-06-06T10:14:26+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 8b9d46df-ec83-4743-80fe-f154f25e462d # Heading
+            fieldUid: 550744bc-0323-48c3-aad2-7f5010e23275 # image
             handle: null
             includeInCards: false
             instructions: null
@@ -48,34 +48,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8173f931-7055-46a1-8e5f-0d681be8bccf
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-06-06T08:51:32+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f # Shorttext
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 016b5453-074e-4f2e-b01f-48292a0b6007
+            uid: 2626e301-4aa4-4434-ac79-f3f7083e2ec7
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5efdd8d6-6ea5-472e-ba59-10d3246b3775
+        uid: b240f77d-a0b1-44b9-bdde-6674c9eb3023
         userCondition: null
-handle: homePage
+handle: teamManagers
 hasTitleField: true
-icon: house
-name: 'Home page'
+icon: image-landscape
+name: 'Team managers'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

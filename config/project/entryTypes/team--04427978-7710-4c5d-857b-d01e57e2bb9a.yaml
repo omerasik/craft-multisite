@@ -1,6 +1,6 @@
-color: sky
+color: orange
 fieldLayouts:
-  cf28561b-56fa-4af7-95d6-80379b657cb2:
+  1f7de91a-4798-4b9a-8517-1fb3bcc096cb:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-05-23T14:51:17+00:00'
+            dateAdded: '2025-06-06T09:10:58+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,15 +31,15 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 47fea052-d489-42e4-b598-ab54762d2611
+            uid: cc7f1ad5-4c5d-43e7-9e40-8bfc5d6fa1f3
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-23T15:15:03+00:00'
+            dateAdded: '2025-06-06T09:14:56+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 8b9d46df-ec83-4743-80fe-f154f25e462d # Heading
+            fieldUid: 550744bc-0323-48c3-aad2-7f5010e23275 # image
             handle: null
             includeInCards: false
             instructions: null
@@ -48,12 +48,29 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8173f931-7055-46a1-8e5f-0d681be8bccf
+            uid: 48df56a7-5b7d-44b8-aff4-e12bf959f235
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-06T08:51:32+00:00'
+            dateAdded: '2025-06-06T09:14:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e8566ad4-3060-4438-9d37-aedb39f64380 # Subheading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b1486de-d233-4deb-a1c3-753f30c6fbe8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-06T09:14:56+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f # Shorttext
@@ -65,17 +82,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 016b5453-074e-4f2e-b01f-48292a0b6007
+            uid: 89088afa-2f5d-4dc9-a008-ae97bd8fbe90
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 5efdd8d6-6ea5-472e-ba59-10d3246b3775
+        uid: cc820b35-7500-4867-9a66-b62737d93dc7
         userCondition: null
-handle: homePage
+handle: team
 hasTitleField: true
-icon: house
-name: 'Home page'
+icon: people
+name: team
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

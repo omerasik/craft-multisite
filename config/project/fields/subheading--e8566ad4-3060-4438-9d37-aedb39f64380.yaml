@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: introText
+handle: subheading
 instructions: null
-name: 'Intro text'
+name: Subheading
 searchable: false
 settings:
   availableTransforms: ''

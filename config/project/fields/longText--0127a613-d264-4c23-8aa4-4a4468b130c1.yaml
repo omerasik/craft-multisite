@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: aboutText
+handle: longText
 instructions: null
-name: 'About text'
+name: Longtext
 searchable: false
 settings:
   availableTransforms: ''
