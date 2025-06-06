@@ -1,12 +1,18 @@
 <header>
-  <nav>
-    <ul>
-      {% set navItems = craft.entries.section('navStructuur').level(1).all() %}
+  <button class="menu-toggle">
+    <img src="/icons/burger.svg" alt="menu" />
+  </button>
 
+  <nav class="mobile-nav">
+    <button class="menu-close">
+      <img src="/icons/cross.svg" alt="menu close" />
+    </button>
+    <ul class="mobile-menu-list">
+      {% set navItems = craft.entries.section('navStructuur').level(1).all() %}
       {% for item in navItems %}
         {% set target = item.navEntry.one() %}
         {% if target %}
-          <li>
+          <li class="mobile-menu-item">
             <a href="{{ target.url }}">
               {{ item.navLabel ?: target.title }}
             </a>
