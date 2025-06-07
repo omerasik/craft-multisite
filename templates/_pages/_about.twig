@@ -3,7 +3,34 @@
 {% block content %}
     <section>
         <h1> {{ entry.heading}} </h1>
-        <p> {{ entry.shortText}} </p>
+        <p> {{ entry.longText}} </p>
     </section>
     
+    <section>Add commentMore actions
+        <h2>Experten</h2>
+        <div>
+            {% for block in entry.team %}
+            <div>
+                {% if block.image.one() %}
+                <img src="{{ block.image.one().url }}">
+                {% endif %}
+                <h3>{{ block.subheading }}</h3>
+                <p>{{ block.shortText }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2>TEAMVERANTWOORDELIJKEN</h2>
+        <div>
+            {% for block in entry.teamManagers %}
+            <div>
+                {% if block.image.one() %}
+                <img src="{{ block.image.one().url }}">
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
 {% endblock %}

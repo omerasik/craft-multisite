@@ -1,4 +1,4 @@
-baseUrl: $CULTUUR_COLETTE_URL
+baseUrl: /cultuur-colette
 enabled: '1'
 handle: cultuurColette
 hasUrls: true

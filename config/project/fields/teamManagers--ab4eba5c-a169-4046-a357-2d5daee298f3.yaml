@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: headerNav
+handle: teamManagers
 instructions: null
-name: headernav
+name: 'Team managers'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,13 +12,13 @@ settings:
       __assoc__:
         -
           - uid
-          - f204308f-202b-45d6-881d-4e1283b9959e # Nav
+          - 0040ae8f-9fcf-4870-881e-4f3e1b726e04 # Team managers
   includeTableView: false
   maxEntries: null
   minEntries: null
   pageSize: 50
   propagationKeyFormat: null
-  propagationMethod: none
+  propagationMethod: siteGroup
   showCardsInGrid: false
   viewMode: cards
 translationKeyFormat: null
