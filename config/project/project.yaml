@@ -1,4 +1,4 @@
-dateModified: 1749221408
+dateModified: 1749309342
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -30,13 +30,9 @@ meta:
     00c2fcb6-5095-4aa4-bb09-5edc3ed1980d: 'cultuur colette' # cultuur colette
     7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5: 'Home page' # Home page
     7d87d3c0-9b0a-42f6-9032-c230f824d597: 'Home page' # Home page
-    7f3f813f-d9de-4c1d-ba53-88f8dde03240: nav-structuur # nav-structuur
     8b9d46df-ec83-4743-80fe-f154f25e462d: Heading # Heading
-    8da6550d-2ca9-4aed-b45f-b6bd92e697b9: 'Nav Entry' # Nav Entry
     22f25fbf-82ad-4650-8cc1-80fa7b6629f9: map # map
-    0040ae8f-9fcf-4870-881e-4f3e1b726e04: 'Team managers' # Team managers
     43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
-    78dc517e-e56c-4f2b-bca5-162c82ba4d20: 'Nav Structuur' # Nav Structuur
     0127a613-d264-4c23-8aa4-4a4468b130c1: Longtext # Longtext
     182d7633-959a-49a7-ac3b-dc6004c59e14: 'About page' # About page
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
@@ -44,13 +40,9 @@ meta:
     74310f18-2e20-4c6b-9437-d6a029a0e09f: Adress # Adress
     550744bc-0323-48c3-aad2-7f5010e23275: image # image
     574815ea-8309-4923-b4ef-27d7dd272184: sint-coleta # sint-coleta
-    04427978-7710-4c5d-857b-d01e57e2bb9a: Experten # Experten
     8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
     21397684-5941-4452-abb8-931f54e0f6cb: Contact # Contact
     ab4ac2b8-0348-490e-a1d8-c02351505b0c: 'About page' # About page
-    ab4eba5c-a169-4046-a357-2d5daee298f3: 'Team managers' # Team managers
-    afe0a74f-2dfe-44d2-982d-34c9dffa564b: 'Nav Label' # Nav Label
-    b2d1e2c2-b9cd-4e14-832e-787028e219d4: team # team
     bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
     cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f: Shorttext # Shorttext
     ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple

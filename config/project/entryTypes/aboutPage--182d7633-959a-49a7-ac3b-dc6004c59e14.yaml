@@ -73,7 +73,7 @@ fieldLayouts:
             dateAdded: '2025-06-06T09:15:18+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: b2d1e2c2-b9cd-4e14-832e-787028e219d4 # team
+            fieldUid: b2d1e2c2-b9cd-4e14-832e-787028e219d4
             handle: null
             includeInCards: false
             instructions: null
@@ -90,7 +90,7 @@ fieldLayouts:
             dateAdded: '2025-06-06T10:14:30+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: ab4eba5c-a169-4046-a357-2d5daee298f3 # Team managers
+            fieldUid: ab4eba5c-a169-4046-a357-2d5daee298f3
             handle: null
             includeInCards: false
             instructions: null
