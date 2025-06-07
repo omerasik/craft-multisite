@@ -1,0 +1,38 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 4467bc86-17bd-4c4e-94f2-444aaaec458e # Header
+handle: header
+maxAuthors: 1
+name: Header
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  2586cd74-aa98-4355-81dd-4d3226fe9650: # Sint-Coleta
+    enabledByDefault: true
+    hasUrls: true
+    template: _partials/_header.twig
+    uriFormat: header
+  7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: _partials/_header.twig
+    uriFormat: header
+  8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: _partials/_header.twig
+    uriFormat: header
+type: single

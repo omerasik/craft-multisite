@@ -1,50 +1,14 @@
-{% set navItems = craft.entries.section('navStructuur').level(1).all() %}
-
-<header class="header">
-  <div class="header__logo">
-    <a href="{{ siteUrl }}">
-      <img src="/icons/logo.png" alt="Logo" />
-    </a>
-  </div>
-
-  <nav class="header__nav">
-    <ul class="header__nav-list">
+<header>
+  <nav class="mobile-nav">
+    <ul class="mobile-menu-list">
+      {% set header = craft.entries.section('header').one() %}
+      {% set navItems = header.headerNav.all() %}
       {% for item in navItems %}
-        {% set target = item.navEntry.one() %}
+        {% set target = item.urlNav.one() %}
         {% if target %}
-          <li class="header__nav-item">
-            <a
-              href="{{ target.url }}"
-              class="header__nav-link{% if target.url == craft.app.request.getUrl() %} active{% endif %}"
-            >
-              {{ item.navLabel ?: target.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-
-  <a href="/contact" class="header__cta-button">Contacteer Ons</a>
-
-  <button class="header__menu-toggle" aria-label="Open menu">
-    <img src="/icons/burger.svg" alt="Menu" />
-  </button>
-
-  <nav class="header__drawer-nav">
-    <button class="header__menu-close" aria-label="Close menu">
-      <img src="/icons/cross.svg" alt="Close" />
-    </button>
-    <ul class="header__drawer-menu-list">
-      {% for item in navItems %}
-        {% set target = item.navEntry.one() %}
-        {% if target %}
-          <li class="header__drawer-menu-item">
-            <a
-              href="{{ target.url }}"
-              class="header__drawer-menu-link{% if target.url == craft.app.request.getUrl() %} active{% endif %}"
-            >
-              {{ item.navLabel ?: target.title }}
+          <li class="mobile-menu-item">
+            <a href="{{ target.url }}">
+              {{ item.labelNav ?: target.title }}
             </a>
           </li>
         {% endif %}
