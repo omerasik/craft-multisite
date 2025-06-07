@@ -73,23 +73,6 @@ fieldLayouts:
             dateAdded: '2025-06-04T19:44:49+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 4c69afaf-9769-4a03-8d42-bd62ee5efc20
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: fefc7f50-95a6-48ce-a34e-35e30e452f19
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-06-04T19:44:49+00:00'
-            editCondition: null
-            elementCondition: null
             fieldUid: 74310f18-2e20-4c6b-9437-d6a029a0e09f # Adress
             handle: null
             includeInCards: false
