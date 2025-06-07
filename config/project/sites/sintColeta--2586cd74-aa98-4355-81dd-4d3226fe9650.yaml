@@ -1,4 +1,4 @@
-baseUrl: /sint-coleta
+baseUrl: $SINT_COLETA_URL
 enabled: '1'
 handle: sintColeta
 hasUrls: true
