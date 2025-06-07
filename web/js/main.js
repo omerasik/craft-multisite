@@ -1,17 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const menuToggle = document.querySelector('.menu-toggle');
-  const menuClose  = document.querySelector('.menu-close');
-  const mobileNav  = document.querySelector('.mobile-nav');
+  const toggleBtn = document.querySelector('.header__menu-toggle');
+  const closeBtn  = document.querySelector('.header__menu-close');
+  const drawerNav = document.querySelector('.header__drawer-nav');
 
-  if (menuToggle && mobileNav) {
-    menuToggle.addEventListener('click', () => {
-      mobileNav.classList.add('open');
+  if (toggleBtn && drawerNav) {
+    toggleBtn.addEventListener('click', () => {
+      drawerNav.classList.add('open');
     });
   }
 
-  if (menuClose && mobileNav) {
-    menuClose.addEventListener('click', () => {
-      mobileNav.classList.remove('open');
+  if (closeBtn && drawerNav) {
+    closeBtn.addEventListener('click', () => {
+      drawerNav.classList.remove('open');
     });
   }
 });
+
+
+
