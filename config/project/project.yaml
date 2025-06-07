@@ -1,4 +1,4 @@
-dateModified: 1749313572
+dateModified: 1749329992
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -28,30 +28,43 @@ fs:
 meta:
   __names__:
     00c2fcb6-5095-4aa4-bb09-5edc3ed1980d: 'cultuur colette' # cultuur colette
+    00f1c37f-44f1-4426-8679-4df2298cf426: 'Footer Text' # Footer Text
+    1f9192f7-ec38-4f89-863f-79ade97b04fa: navItems # navItems
     7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5: 'Home page' # Home page
     7d87d3c0-9b0a-42f6-9032-c230f824d597: 'Home page' # Home page
     8b9d46df-ec83-4743-80fe-f154f25e462d: Heading # Heading
+    17b5a972-9d05-4f34-8e24-d657d8972571: 'facebook url' # facebook url
     22f25fbf-82ad-4650-8cc1-80fa7b6629f9: map # map
     0040ae8f-9fcf-4870-881e-4f3e1b726e04: 'Team managers' # Team managers
     43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    72cf94c7-879b-4e16-a357-ade07ed1bc18: footerNav # footerNav
     0127a613-d264-4c23-8aa4-4a4468b130c1: Longtext # Longtext
     182d7633-959a-49a7-ac3b-dc6004c59e14: 'About page' # About page
+    503bf49e-28e2-4f2f-a113-990657461d68: footer # footer
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
+    3159c64a-fcfa-403c-b4d7-95dcb1049954: 'footer logo' # footer logo
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
     74310f18-2e20-4c6b-9437-d6a029a0e09f: Adress # Adress
     550744bc-0323-48c3-aad2-7f5010e23275: image # image
     574815ea-8309-4923-b4ef-27d7dd272184: sint-coleta # sint-coleta
     04427978-7710-4c5d-857b-d01e57e2bb9a: team # team
     8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
+    9638457d-dcf3-4651-b110-3afb116409da: 'Copyright Text' # Copyright Text
     21397684-5941-4452-abb8-931f54e0f6cb: Contact # Contact
+    63899246-da1e-4152-aee2-ee8c4c9f6444: 'facebook icon' # facebook icon
+    98794487-2a00-4d81-9d35-cb811ece5b1c: 'nav target' # nav target
     ab4ac2b8-0348-490e-a1d8-c02351505b0c: 'About page' # About page
     ab4eba5c-a169-4046-a357-2d5daee298f3: 'Team managers' # Team managers
+    acbbaf7a-396d-440b-8a72-77429190fbf4: footer # footer
     b2d1e2c2-b9cd-4e14-832e-787028e219d4: team # team
+    b3dc508e-66a7-46d8-8cba-e58656cc26c1: 'nav label' # nav label
     bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
     cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f: Shorttext # Shorttext
+    da9ec10f-12bc-4d3d-a81b-40f49526d5e3: NavStructuur # NavStructuur
     ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple
     e3b18acb-2d5b-4c4c-a437-f2cfff04562d: mariahuis # mariahuis
     e8566ad4-3060-4438-9d37-aedb39f64380: Subheading # Subheading
+    ef5f8ffc-db4a-4bde-be4c-dd9764883dc1: 'footer nav' # footer nav
     f9dd42b4-aec6-46a9-ac9b-3f1920590611: Contact # Contact
 plugins:
   ckeditor:
