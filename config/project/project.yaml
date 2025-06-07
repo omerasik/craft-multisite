@@ -1,4 +1,4 @@
-dateModified: 1749309342
+dateModified: 1749309801
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -31,11 +31,15 @@ meta:
     7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5: 'Home page' # Home page
     7d87d3c0-9b0a-42f6-9032-c230f824d597: 'Home page' # Home page
     8b9d46df-ec83-4743-80fe-f154f25e462d: Heading # Heading
+    8bde1ed6-69a4-434b-aa84-84c54a013a98: Header # Header
     22f25fbf-82ad-4650-8cc1-80fa7b6629f9: map # map
     43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    80d10acf-1670-44de-a25f-ba8dcedf4d17: 'Url nav' # Url nav
     0127a613-d264-4c23-8aa4-4a4468b130c1: Longtext # Longtext
     182d7633-959a-49a7-ac3b-dc6004c59e14: 'About page' # About page
+    380bbbe9-5288-4f29-a4b5-52d926c7ed15: 'Label nav' # Label nav
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
+    4467bc86-17bd-4c4e-94f2-444aaaec458e: Header # Header
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
     74310f18-2e20-4c6b-9437-d6a029a0e09f: Adress # Adress
     550744bc-0323-48c3-aad2-7f5010e23275: image # image
@@ -45,10 +49,12 @@ meta:
     ab4ac2b8-0348-490e-a1d8-c02351505b0c: 'About page' # About page
     bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
     cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f: Shorttext # Shorttext
+    cfa59f85-0d5e-47d5-83b3-6368f8c596aa: headernav # headernav
     ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple
     e3b18acb-2d5b-4c4c-a437-f2cfff04562d: mariahuis # mariahuis
     e8566ad4-3060-4438-9d37-aedb39f64380: Subheading # Subheading
     f9dd42b4-aec6-46a9-ac9b-3f1920590611: Contact # Contact
+    f204308f-202b-45d6-881d-4e1283b9959e: Nav # Nav
 plugins:
   ckeditor:
     edition: standard

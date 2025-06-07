@@ -1,13 +1,14 @@
 <header>
   <nav class="mobile-nav">
     <ul class="mobile-menu-list">
-      {% set navItems = craft.entries.section('navStructuur').level(1).all() %}
+      {% set header = craft.entries.section('header').one() %}
+      {% set navItems = header.headerNav.all() %}
       {% for item in navItems %}
-        {% set target = item.navEntry.one() %}
+        {% set target = item.urlNav.one() %}
         {% if target %}
           <li class="mobile-menu-item">
             <a href="{{ target.url }}">
-              {{ item.navLabel ?: target.title }}
+              {{ item.labelNav ?: target.title }}
             </a>
           </li>
         {% endif %}
@@ -15,3 +16,4 @@
     </ul>
   </nav>
 </header>
+
