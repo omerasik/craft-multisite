@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: footerLogo
+handle: headerLogo
 instructions: null
-name: 'footer logo'
+name: 'header logo'
 searchable: false
 settings:
   allowSelfRelations: false

@@ -39,5 +39,5 @@ settings:
     - entry
     - url
 translationKeyFormat: null
-translationMethod: none
+translationMethod: site
 type: craft\fields\Link

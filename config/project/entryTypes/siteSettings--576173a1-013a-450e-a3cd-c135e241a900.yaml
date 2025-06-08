@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  7057d26c-500f-401c-9389-bdc0ed57c440:
+  6066251c-d5de-4a0f-a725-6954e4c6e254:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-06-07T18:23:48+00:00'
+            dateAdded: '2025-06-07T23:40:56+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,15 +31,15 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 3a333a3a-52bb-43e3-b404-b2476060e95c
+            uid: 8a12b2af-2ec0-46e3-bb39-2d5bc2fe671b
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-07T22:44:51+00:00'
+            dateAdded: '2025-06-07T23:42:15+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: b3dc508e-66a7-46d8-8cba-e58656cc26c1 # nav label
+            fieldUid: 740b9183-a194-428b-95b1-08862dd1a337 # header logo
             handle: null
             includeInCards: false
             instructions: null
@@ -48,34 +48,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 33c79b58-2731-434d-99df-98232cc9ea8d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-06-07T18:28:17+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 98794487-2a00-4d81-9d35-cb811ece5b1c # nav target
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 1a79a2eb-d7a6-4d4a-9b0a-0c7c04614453
+            uid: 76ea0fd7-33de-48f3-8944-f2d519b5c5cb
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e130e07f-627c-4703-b587-693ecd8974c8
+        uid: e68ed05c-6fbb-4301-b970-f69045150c76
         userCondition: null
-handle: navitems
+handle: siteSettings
 hasTitleField: true
 icon: null
-name: navItems
+name: 'Site Settings'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
