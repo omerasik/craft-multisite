@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: navLabel
+handle: copyrightText
 instructions: null
-name: 'Nav Label'
+name: 'Copyright Text'
 searchable: false
 settings:
   byteLimit: null
@@ -12,5 +12,5 @@ settings:
   placeholder: null
   uiMode: normal
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: craft\fields\PlainText

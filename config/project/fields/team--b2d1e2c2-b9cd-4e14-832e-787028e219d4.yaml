@@ -12,7 +12,7 @@ settings:
       __assoc__:
         -
           - uid
-          - 04427978-7710-4c5d-857b-d01e57e2bb9a # Experten
+          - 04427978-7710-4c5d-857b-d01e57e2bb9a # team
   includeTableView: false
   maxEntries: null
   minEntries: null

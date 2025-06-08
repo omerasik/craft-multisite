@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5 # Home page
-handle: homePage
+    uid: 1f9192f7-ec38-4f89-863f-79ade97b04fa # navItems
+handle: navstructuur
 maxAuthors: 1
-name: 'Home page'
+name: NavStructuur
 previewTargets:
   -
     __assoc__:
@@ -13,26 +13,29 @@ previewTargets:
         - label
         - 'Primary entry page'
       -
-        - refresh
-        - '1'
-      -
         - urlFormat
         - '{url}'
-propagationMethod: all
+      -
+        - refresh
+        - '1'
+propagationMethod: none
 siteSettings:
   2586cd74-aa98-4355-81dd-4d3226fe9650: # Sint-Coleta
     enabledByDefault: true
     hasUrls: true
-    template: index.twig
-    uriFormat: __home__
+    template: navstructuur/_entry.twig
+    uriFormat: 'navstructuur/{slug}'
   7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
     enabledByDefault: true
     hasUrls: true
-    template: index.twig
-    uriFormat: __home__
+    template: navstructuur/_entry.twig
+    uriFormat: 'navstructuur/{slug}'
   8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
     enabledByDefault: true
     hasUrls: true
-    template: index.twig
-    uriFormat: __home__
-type: single
+    template: navstructuur/_entry.twig
+    uriFormat: 'navstructuur/{slug}'
+structure:
+  maxLevels: null
+  uid: 301fcbd6-cab9-4c43-9347-92e66c3f942b
+type: structure

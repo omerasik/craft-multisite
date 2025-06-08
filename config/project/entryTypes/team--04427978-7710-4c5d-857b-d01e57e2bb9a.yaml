@@ -92,7 +92,7 @@ fieldLayouts:
 handle: team
 hasTitleField: true
 icon: people
-name: Experten
+name: team
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

@@ -3,9 +3,10 @@
 {% block content %}
     <section>
         <h1> {{ entry.heading}} </h1>
-        <p> {{ entry.shortText}} </p>
+        <p> {{ entry.longText}} </p>
     </section>
-    <section>
+    
+    <section>Add commentMore actions
         <h2>Experten</h2>
         <div>
             {% for block in entry.team %}
@@ -32,5 +33,4 @@
             {% endfor %}
         </div>
     </section>
-
 {% endblock %}

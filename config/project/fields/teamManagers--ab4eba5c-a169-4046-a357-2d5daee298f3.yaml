@@ -18,7 +18,7 @@ settings:
   minEntries: null
   pageSize: 50
   propagationKeyFormat: null
-  propagationMethod: none
+  propagationMethod: siteGroup
   showCardsInGrid: false
   viewMode: cards
 translationKeyFormat: null

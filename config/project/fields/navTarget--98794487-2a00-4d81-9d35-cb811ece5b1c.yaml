@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: navEntry
+handle: navTarget
 instructions: null
-name: 'Nav Entry'
+name: 'nav target'
 searchable: false
 settings:
   allowSelfRelations: false

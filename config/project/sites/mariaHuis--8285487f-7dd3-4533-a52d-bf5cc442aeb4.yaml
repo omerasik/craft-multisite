@@ -1,4 +1,4 @@
-baseUrl: $MARIA_HUIS_URL
+baseUrl: /
 enabled: true
 handle: mariaHuis
 hasUrls: true
