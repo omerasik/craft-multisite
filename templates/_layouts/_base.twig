@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <title>{{ entry.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+   
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/main.css">
+ 
 </head>
-
 <body>
-    {% include '_partials/_header.twig' %}
-
-    
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
-   <script src="/js/main.js"></script>
+  {% include '_partials/_header.twig' %}
+ 
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+ 
+  {% include '_partials/_footer.twig' %}
+ 
+  <script src="/js/main.js"></script>
 </body>
-</html> 
+</html>
