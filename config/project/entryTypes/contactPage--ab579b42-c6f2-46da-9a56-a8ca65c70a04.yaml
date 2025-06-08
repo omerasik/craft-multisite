@@ -1,6 +1,6 @@
-color: red
+color: orange
 fieldLayouts:
-  44c50e08-c428-491f-8b9d-a240eab7ccc4:
+  535379d9-213d-47e4-8043-8223d1e44818:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-06-04T19:33:08+00:00'
+            dateAdded: '2025-06-08T01:07:23+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,15 +31,15 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 24320765-56b4-4bd9-b04f-e361f098c99a
+            uid: 3b0165a6-170a-47d1-a0d6-f0e72496696b
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-04T19:44:49+00:00'
+            dateAdded: '2025-06-08T01:34:12+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 8b9d46df-ec83-4743-80fe-f154f25e462d # Heading
+            fieldUid: e8566ad4-3060-4438-9d37-aedb39f64380 # Subheading
             handle: null
             includeInCards: false
             instructions: null
@@ -48,15 +48,15 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 054cf88a-0b1c-4b6c-8f4b-1383b8255fd9
+            uid: 2dc32a92-d905-495a-8cf3-4eb418ebf624
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-04T19:44:49+00:00'
+            dateAdded: '2025-06-08T01:34:12+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 0127a613-d264-4c23-8aa4-4a4468b130c1 # Longtext
+            fieldUid: cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f # Shorttext
             handle: null
             includeInCards: false
             instructions: null
@@ -65,15 +65,15 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e40a93ee-d2e5-4fc7-be86-1fee440441f7
+            uid: cfd662b1-329d-46ed-9ecd-766138668ae8
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-04T19:44:49+00:00'
+            dateAdded: '2025-06-08T01:34:12+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 74310f18-2e20-4c6b-9437-d6a029a0e09f # Adress
+            fieldUid: 74310f18-2e20-4c6b-9437-d6a029a0e09f
             handle: null
             includeInCards: false
             instructions: null
@@ -82,34 +82,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3220c1ad-92c5-4168-b0fc-a37140a90571
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-06-04T19:44:49+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 22f25fbf-82ad-4650-8cc1-80fa7b6629f9 # map
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7c17b75c-53e1-4be6-ad5b-f40074b0397b
+            uid: 6fc26dc3-7596-417e-a31e-aff6164161ab
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 0614fc60-1b04-45dc-93c1-5e89134ef306
+        uid: 1686cb05-5373-42b0-a091-ff947e479d67
         userCondition: null
-handle: contact
+handle: contactPage
 hasTitleField: true
 icon: address-card
-name: Contact
+name: 'Contact page'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

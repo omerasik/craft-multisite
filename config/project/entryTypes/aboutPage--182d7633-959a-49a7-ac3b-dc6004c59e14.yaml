@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-06T08:53:21+00:00'
+            dateAdded: '2025-06-08T21:51:15+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: 8b9d46df-ec83-4743-80fe-f154f25e462d # Heading
@@ -48,7 +48,24 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 13df9399-bb4a-4a0d-a146-4f0da56af60f
+            uid: 7ce6a916-45fc-4d36-b02e-0b6115cda574
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-08T18:20:52+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: df8900ce-aba3-49fc-bab7-758484c4b905 # hero image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f338cd1-90ff-43db-bfde-276acd66c6b5
             userCondition: null
             warning: null
             width: 100

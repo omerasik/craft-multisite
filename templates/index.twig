@@ -5,14 +5,14 @@
   <section class="hero">
     {% if entry.heroImage.one() %}
       <div class="hero__image">
-        <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroTitle }}">
+        <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heading }}">
         <div class="hero__overlay"></div>
       </div>
     {% endif %}
    
-    {% if entry.heroTitle %}
+    {% if entry.heading %}
       <div class="hero__content">
-        <h1 class="hero__title">{{ entry.heroTitle }}</h1>
+        <h1 class="hero__title">{{ entry.heading }}</h1>
       </div>
     {% endif %}
   </section>
