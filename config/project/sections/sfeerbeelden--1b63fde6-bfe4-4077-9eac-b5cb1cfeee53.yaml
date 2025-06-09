@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 2569842c-0aec-44e6-8b39-ef7fbee3e0af # Sfeerbeelden
+handle: sfeerbeelden
+maxAuthors: 1
+name: Sfeerbeelden
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_gallery.twig
+    uriFormat: sfeerbeelden
+type: single

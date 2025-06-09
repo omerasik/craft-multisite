@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 329ac4d8-4d41-4fd9-8e51-48ca884de25b # Zaalverhuur
+handle: zaalverhuur
+maxAuthors: 1
+name: Zaalverhuur
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_venue.twig
+    uriFormat: zaalverhuur
+type: single
