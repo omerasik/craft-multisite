@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: facebookIcon
+handle: socialsIcon
 instructions: null
-name: 'facebook icon'
+name: 'socials icon'
 searchable: false
 settings:
   allowSelfRelations: false

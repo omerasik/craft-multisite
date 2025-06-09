@@ -1,4 +1,4 @@
-color: null
+color: lime
 fieldLayouts:
   088a4001-f93d-481a-a3a4-f24cc8b73d76:
     tabs:
@@ -74,7 +74,7 @@ fieldLayouts:
         userCondition: null
 handle: footerNav
 hasTitleField: true
-icon: null
+icon: shoe-prints
 name: 'footer nav'
 showSlugField: true
 showStatusField: true

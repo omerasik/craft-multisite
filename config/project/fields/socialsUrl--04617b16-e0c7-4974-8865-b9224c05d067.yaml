@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: facebookUrl
+handle: socialsUrl
 instructions: null
-name: 'facebook url'
+name: 'socials url'
 searchable: false
 settings:
   fullGraphqlData: true
