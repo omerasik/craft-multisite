@@ -1,5 +1,44 @@
 {% extends '_layouts/_base.twig' %}
 
 {% block content %}
+  <section>
+    <div>
+      <h1>{{ entry.heading }}</h1>
+      {% if entry.heroImage.one() %}
+        <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.one().title }}">
+      {% endif %}
+    </div>
 
+    <div>
+      <h2>{{ entry.subheading }}</h2>
+      <p>{{ entry.shortText }}</p>
+      {% if entry.image.one() %}
+        <img src="{{ entry.image.one().url }}" alt="{{ entry.image.one().title }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h2>{{ entry.subheading2 }}</h2>
+      <p>{{ entry.shortText2 }}</p>
+      {% if entry.image2.one() %}
+        <img src="{{ entry.image2.one().url }}" alt="{{ entry.image2.one().title }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h2>{{ entry.subheading3 }}</h2>
+      <p>{{ entry.shortText3 }}</p>
+      {% if entry.image3.one() %}
+        <img src="{{ entry.image3.one().url }}" alt="{{ entry.image3.one().title }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h2>{{ entry.subheading4 }}</h2>
+      <p>{{ entry.shortText4 }}</p>
+      {% if entry.image4.one() %}
+        <img src="{{ entry.image4.one().url }}" alt="{{ entry.image4.one().title }}">
+      {% endif %}
+    </div>
+  </section>
 {% endblock %}

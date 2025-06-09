@@ -3,12 +3,26 @@
 {% block content %}
 
     <section>
-            <h1> {{ entry.heading}} </h1>
-            <p> {{ entry.longText}} </p>
+        <h1> {{ entry.heading}} </h1>
     </section>
 
     <section>
-        <h2>{{ craft.app.fields.getFieldByHandle('Experten').name }}</h2>
+        <h2>{{ entry.subheading }}</h2>
+        <p>{{ entry.shortText}}</p>
+    </section>
+
+    <section>
+        <h2>{{ entry.subheading }}</h2>
+        <p>{{ entry.shortText2}}</p>
+    </section>
+
+    <section>
+        <h2>{{ entry.subheading }}</h2>
+        <p>{{ entry.longText}}</p>
+    </section>
+
+    <section>
+        <h2>{{ entry.subheading }}</h2>
         <div>
             {% for block in entry.Experten %}
             <div>
