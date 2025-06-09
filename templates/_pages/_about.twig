@@ -7,5 +7,28 @@
             <p> {{ entry.longText}} </p>
     </section>
 
-    
+    <section>
+        <h2>{{ craft.app.fields.getFieldByHandle('Experten').name }}</h2>
+        <div>
+            {% for block in entry.Experten %}
+            <div>
+                {% if block.image.one() %}
+                <img src="{{ block.image.one().url }}">
+                {% endif %}
+                <h3>{{ block.subheading }}</h3>
+                <p>{{ block.shortText }}</p>
+            </div>
+            {% endfor %}
+        </div>
+ 
+        <div>
+            {% for block in entry.teamManagers %}
+            <div>
+                {% if block.image.one() %}
+                <img src="{{ block.image.one().url }}">
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>    
 {% endblock %}

@@ -1,4 +1,4 @@
-dateModified: 1749430865
+dateModified: 1749433700
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -35,6 +35,7 @@ meta:
     8b9d46df-ec83-4743-80fe-f154f25e462d: Heading # Heading
     0040ae8f-9fcf-4870-881e-4f3e1b726e04: 'Team managers' # Team managers
     43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    56caabcb-9b95-4b2c-ba7a-4259d027bb03: 'Hero Image' # Hero Image
     72cf94c7-879b-4e16-a357-ade07ed1bc18: footerNav # footerNav
     0127a613-d264-4c23-8aa4-4a4468b130c1: Longtext # Longtext
     173b741a-f801-4574-8389-8f331484f4c4: 'socials icon' # socials icon
