@@ -1,4 +1,4 @@
-color: null
+color: fuchsia
 fieldLayouts:
   c857ecb5-46a7-4f13-8aa7-3a4386e875f6:
     tabs:
@@ -74,7 +74,7 @@ fieldLayouts:
         userCondition: null
 handle: socials
 hasTitleField: true
-icon: null
+icon: hashtag
 name: socials
 showSlugField: true
 showStatusField: true

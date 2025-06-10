@@ -1,4 +1,4 @@
-color: null
+color: red
 fieldLayouts:
   7057d26c-500f-401c-9389-bdc0ed57c440:
     tabs:
@@ -74,7 +74,7 @@ fieldLayouts:
         userCondition: null
 handle: navitems
 hasTitleField: true
-icon: null
+icon: ellipsis
 name: navItems
 showSlugField: true
 showStatusField: true

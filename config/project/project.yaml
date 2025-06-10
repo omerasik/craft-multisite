@@ -1,4 +1,4 @@
-dateModified: 1749564697
+dateModified: 1749569356
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -29,7 +29,7 @@ meta:
   __names__:
     00c2fcb6-5095-4aa4-bb09-5edc3ed1980d: 'cultuur colette' # cultuur colette
     0dbb3684-640a-42c3-8d69-44ebcb9d243c: socials # socials
-    1b63fde6-bfe4-4077-9eac-b5cb1cfeee53: Sfeerbeelden # Sfeerbeelden
+    1b63fde6-bfe4-4077-9eac-b5cb1cfeee53: 'Sfeer Images' # Sfeer Images
     1f9192f7-ec38-4f89-863f-79ade97b04fa: navItems # navItems
     7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5: 'Home page' # Home page
     7d87d3c0-9b0a-42f6-9032-c230f824d597: 'Home page' # Home page
@@ -41,11 +41,13 @@ meta:
     173b741a-f801-4574-8389-8f331484f4c4: 'socials icon' # socials icon
     182d7633-959a-49a7-ac3b-dc6004c59e14: 'About page' # About page
     329ac4d8-4d41-4fd9-8e51-48ca884de25b: Zaalverhuur # Zaalverhuur
+    381a0bc4-0f70-4126-b52a-b7e8d8cbbe43: projects # projects
     503bf49e-28e2-4f2f-a113-990657461d68: footer # footer
     740b9183-a194-428b-95b1-08862dd1a337: 'header logo' # header logo
     898c34ed-4e55-459d-80ca-b0c21dd250f4: Sfeerbeelden # Sfeerbeelden
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
     04617b16-e0c7-4974-8865-b9224c05d067: 'socials url' # socials url
+    5145b176-0e5e-406b-99fa-bf864b1cee77: Projects # Projects
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
     8462b6bc-a453-4395-a248-98d3b0fd28e7: 'Footer Nav' # Footer Nav
     8594e9b5-caf2-4d4c-abcc-c6c2c5c3e87f: Contribute # Contribute

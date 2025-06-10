@@ -1,4 +1,4 @@
-color: null
+color: yellow
 fieldLayouts:
   27fa79a9-715c-4028-a6b0-b96e19376763:
     tabs:
@@ -57,7 +57,7 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             fieldUid: 898c34ed-4e55-459d-80ca-b0c21dd250f4 # Sfeerbeelden
-            handle: null
+            handle: sfeerImages
             includeInCards: false
             instructions: null
             label: null

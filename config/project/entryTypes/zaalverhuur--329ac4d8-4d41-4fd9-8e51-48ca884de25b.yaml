@@ -1,4 +1,4 @@
-color: null
+color: amber
 fieldLayouts:
   dec34cbd-4cec-4305-8ecb-0c78abacdebf:
     tabs:
@@ -227,7 +227,7 @@ fieldLayouts:
         userCondition: null
 handle: zaalverhuur
 hasTitleField: true
-icon: null
+icon: warehouse
 name: Zaalverhuur
 showSlugField: true
 showStatusField: true
