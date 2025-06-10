@@ -5,7 +5,7 @@
     <div>
       <h1>{{ entry.heading }}</h1>
       {% if entry.heroImage.one() %}
-        <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.one().title }}">
+        <img src="{{ entry.heroImage.one().url }}">
       {% endif %}
     </div>
 
