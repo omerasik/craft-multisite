@@ -2,8 +2,13 @@
 
 {% block content %}
 
-    <section>
-        <h1> {{ entry.heading}} </h1>
+    <section
+        <div>
+            <h1>{{ entry.heading }}</h1>
+            {% if entry.heroImage.one() %}
+                <img src="{{ entry.heroImage.one().url }}">
+            {% endif %}
+        </div>
     </section>
 
     <section>
