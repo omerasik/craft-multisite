@@ -154,150 +154,155 @@
   }
 }
 
+/* footer */
+
 .footer {
-  background: #f0f4f0;
-  padding: 4rem 2rem 1.5rem 2rem;
+background: #f0f4f0;
+padding: 4rem 2rem 1.5rem 2rem;
 }
 
 .footer__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 4rem;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+max-width: 1200px;
+margin: 0 auto;
+gap: 4rem;
 }
 
 .footer__branding {
-  flex: 2;
-  max-width: 450px;
+flex: 2;
+max-width: 450px;
 }
 
 .footer__logo {
-  max-height: 70px;
-  margin-bottom: 2rem;
+max-height: 70px;
+margin-bottom: 2rem;
 }
 
 .footer__text {
-  color: #555;
-  line-height: 1.7;
-  margin-bottom: 2rem;
-  font-size: 1rem;
-  font-weight: 400;
+color: #555;
+line-height: 1.7;
+margin-bottom: 2rem;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.footer__socials {
+margin-top: 0.5rem;
 }
 
 .footer__social {
-  display: inline-block;
-  margin-top: 0.5rem;
+display: inline-block;
+margin-right: 0.5rem;
 }
 
 .footer__social-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  transition: transform 0.3s ease;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+transition: transform 0.3s ease;
 }
 
 .footer__social:hover .footer__social-icon {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .footer__links {
-  flex: 1;
-  min-width: 200px;
-  padding-left: 25rem;
+flex: 1;
+min-width: 200px;
 }
 
 .footer__links h4 {
-  color: #333;
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  border-bottom: 2px solid #28a745;
-  padding-bottom: 0.5rem;
-  display: inline-block;
+color: #333;
+margin-bottom: 1.5rem;
+font-size: 1.2rem;
+font-weight: 600;
+border-bottom: 2px solid #28a745;
+padding-bottom: 0.5rem;
+display: inline-block;
 }
 
 .footer__links ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 .footer__links li {
-  margin: 1rem 0;
+margin: 1rem 0;
 }
 
 .footer__links a {
-  text-decoration: none;
-  color: #555;
-  font-size: 1rem;
-  font-weight: 400;
-  transition: color 0.3s ease;
-  display: block;
-  padding: 0.25rem 0;
+text-decoration: none;
+color: #555;
+font-size: 1rem;
+font-weight: 400;
+transition: color 0.3s ease;
+display: block;
+padding: 0.25rem 0;
 }
 
 .footer__links a:hover {
-  color: #28a745;
+color: #28a745;
 }
 
 .footer__copyright {
-  text-align: center;
-  color: #fff;
-  font-size: 0.9rem;
-  margin-top: 3rem;
-  padding: 1rem;
-  background-color: #7eae6d;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  margin-bottom: -1.5rem;
-  border-radius: 6px;
+text-align: center;
+color: #fff;
+font-size: 0.9rem;
+margin-top: 3rem;
+padding: 1rem;
+background-color: #7eae6d;
+margin-left: -2rem;
+margin-right: -2rem;
+margin-bottom: -1.5rem;
+border-radius: 6px;
 }
 
 @media (max-width: 768px) {
-  .footer {
-    padding: 2.5rem 1rem 1rem 1rem;
-  }
-  
-  .footer__branding {
-    text-align: center;
-    max-width: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .footer__logo {
-    max-height: 60px;
-    margin-bottom: 1.5rem;
-  }
-  
-  .footer__text {
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-  }
-  
-  .footer__social {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    width: 100%;
-  }
-  
-  .footer__links {
-    text-align: center;
-    padding-left: 0;
-  }
-  
-  .footer__links a {
-    font-size: 0.95rem;
-  }
-  
-  .footer__copyright {
-    font-size: 0.85rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    margin-bottom: -1rem;
-  }
+.footer {
+padding: 2.5rem 1rem 1rem 1rem;
+}
+
+.footer__content {
+flex-direction: column;
+gap: 2rem;
+}
+
+.footer__branding {
+text-align: center;
+max-width: none;
+}
+
+.footer__logo {
+max-height: 60px;
+margin-bottom: 1.5rem;
+}
+
+.footer__text {
+margin-bottom: 1.5rem;
+font-size: 0.95rem;
+}
+
+.footer__socials {
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+}
+
+.footer__links {
+text-align: center;
+}
+
+.footer__links a {
+font-size: 0.95rem;
+}
+
+.footer__copyright {
+font-size: 0.85rem;
+margin-left: -1rem;
+margin-right: -1rem;
+margin-bottom: -1rem;
+}
 }
