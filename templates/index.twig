@@ -4,6 +4,14 @@
 
     <section>
         <h1>{{ entry.heading }}</h1>
+        {% if entry.heroImage.one() %}
+            <div>
+                <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.one().title }}">
+            </div>
+        {% endif %}
+    </section>
+
+    <section>
         <p>{{ entry.shortText }}</p>
     </section>
 {% endblock %}
