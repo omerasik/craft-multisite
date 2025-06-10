@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-09T00:19:14+00:00'
+            dateAdded: '2025-06-09T21:00:55+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: 173b741a-f801-4574-8389-8f331484f4c4 # socials icon
@@ -48,12 +48,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: feefe231-b8f2-4c9a-99de-b6cdddd6a984
+            uid: 4c07c89f-dc53-4709-8cb6-2e7a6937b843
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-06-09T00:19:14+00:00'
+            dateAdded: '2025-06-09T21:00:55+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: 04617b16-e0c7-4974-8865-b9224c05d067 # socials url
@@ -65,7 +65,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8974c9cb-424d-4c37-a056-0857c835193d
+            uid: 223ffd77-48d2-4fae-98e6-9ec817dd4958
             userCondition: null
             warning: null
             width: 100
