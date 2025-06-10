@@ -1,17 +1,22 @@
 {% extends '_layouts/_base.twig' %}
  
 {% block content %}
-
-    <section>
-        <h1>{{ entry.heading }}</h1>
+    <section class="hero">
         {% if entry.heroImage.one() %}
-            <div>
+            <div class="hero__image">
                 <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.one().title }}">
             </div>
+            <div class="hero__overlay"></div>
         {% endif %}
+        <div class="hero__content">
+            <h1 class="hero__title">{{ entry.heading }}</h1>
+        </div>
     </section>
-
-    <section>
-        <p>{{ entry.shortText }}</p>
+ 
+    <section class="intro">
+        <div class="intro__container">
+            <h2 class="intro__title">{{ entry.subheading }}</h2>
+            <div class="intro__text">{{ entry.shortText }}</div>
+        </div>
     </section>
 {% endblock %}
