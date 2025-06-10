@@ -1,24 +1,37 @@
-{% set footer = craft.entries()
-    .section('footer')
-    .one() %}
-
 <footer class="footer">
-    <div class="footer__container">
-        {% if footer.headerLogo.one() %}
-            <a href="{{ siteUrl }}">
-                <img 
-                    src="{{ footer.headerLogo.one().url }}" 
-                    alt="{{ siteName }}" 
-                    class="footer__logo"
-                >
-            </a>
-        {% endif %}
-
-        <div class="footer__text">{{ footer.footerText }}</div>
-
+    <div class="footer__content">
+        <div class="footer__branding">
+            {% if footer.headerLogo.one() %}
+                <a href="{{ siteUrl }}">
+                    <img
+                        src="{{ footer.headerLogo.one().url }}"
+                        alt="{{ siteName }}"
+                        class="footer__logo"
+                    >
+                </a>
+            {% endif %}
+ 
+            <div class="footer__text">{{ footer.footerText }}</div>
+ 
+            {% set socialBlocks = footer.footerSocials.all() %}
+            {% if socialBlocks|length %}
+                <div class="footer__socials">
+                    {% for block in socialBlocks %}
+                        {% set icon = block.socialsIcon.one() %}
+                        {% if icon and block.socialsUrl %}
+                            <a href="{{ block.socialsUrl }}" target="_blank" rel="noopener" class="footer__social">
+                                <img src="{{ icon.url }}" alt="" class="footer__social-icon">
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+ 
         {% set navBlocks = footer.footerNav.all() %}
         {% if navBlocks|length %}
-            <nav class="footer__nav">
+            <div class="footer__links">
+                <h4>Links</h4>
                 <ul>
                     {% for block in navBlocks %}
                         {% set target = block.navTarget.one() %}
@@ -31,25 +44,11 @@
                         {% endif %}
                     {% endfor %}
                 </ul>
-            </nav>
-        {% endif %}
-
-        {% set socialBlocks = footer.footerSocials.all() %}
-        {% if socialBlocks|length %}
-            <div class="footer__socials">
-                {% for block in socialBlocks %}
-                    {% set icon = block.socialsIcon.one() %}
-                    {% if icon and block.socialsUrl %}
-                        <a href="{{ block.socialsUrl }}" target="_blank" rel="noopener">
-                            <img src="{{ icon.url }}" alt="" class="footer__social-icon">
-                        </a>
-                    {% endif %}
-                {% endfor %}
             </div>
         {% endif %}
-
-        <div class="footer__copyright">
-            {{ footer.copyrightText }}
-        </div>
+    </div>
+   
+    <div class="footer__copyright">
+        {{ footer.copyrightText }}
     </div>
 </footer>
