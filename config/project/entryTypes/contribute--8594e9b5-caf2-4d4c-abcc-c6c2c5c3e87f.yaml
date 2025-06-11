@@ -279,7 +279,7 @@ fieldLayouts:
 handle: contribute
 hasTitleField: true
 icon: mug-tea
-name: Contribute
+name: Meewerken
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

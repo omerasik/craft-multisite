@@ -1,4 +1,4 @@
-dateModified: 1749569356
+dateModified: 1749650586
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -50,7 +50,7 @@ meta:
     5145b176-0e5e-406b-99fa-bf864b1cee77: Projects # Projects
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
     8462b6bc-a453-4395-a248-98d3b0fd28e7: 'Footer Nav' # Footer Nav
-    8594e9b5-caf2-4d4c-abcc-c6c2c5c3e87f: Contribute # Contribute
+    8594e9b5-caf2-4d4c-abcc-c6c2c5c3e87f: Meewerken # Meewerken
     61119bdf-8c37-4f44-b500-145c0c17a7d8: 'Contact Page' # Contact Page
     76512c42-729d-422b-83c9-0374c64ff97c: Zaalverhuur # Zaalverhuur
     550744bc-0323-48c3-aad2-7f5010e23275: image # image
@@ -73,7 +73,7 @@ meta:
     cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f: Shorttext # Shorttext
     da9ec10f-12bc-4d3d-a81b-40f49526d5e3: NavStructuur # NavStructuur
     ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple
-    e2a16f4e-e68d-4691-bb6d-69396921cde6: Contribute # Contribute
+    e2a16f4e-e68d-4691-bb6d-69396921cde6: Meewerken # Meewerken
     e3b18acb-2d5b-4c4c-a437-f2cfff04562d: mariahuis # mariahuis
     e8566ad4-3060-4438-9d37-aedb39f64380: Subheading # Subheading
     ef5f8ffc-db4a-4bde-be4c-dd9764883dc1: 'footer nav' # footer nav

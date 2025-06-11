@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 8594e9b5-caf2-4d4c-abcc-c6c2c5c3e87f # Contribute
+    uid: 8594e9b5-caf2-4d4c-abcc-c6c2c5c3e87f # Meewerken
 handle: contribute
 maxAuthors: 1
-name: Contribute
+name: Meewerken
 previewTargets:
   -
     __assoc__:
@@ -23,11 +23,11 @@ siteSettings:
   2586cd74-aa98-4355-81dd-4d3226fe9650: # Sint-Coleta
     enabledByDefault: true
     hasUrls: true
-    template: _pages/_contribute.twig
+    template: _pages/_meewerken.twig
     uriFormat: contribute
   8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
     enabledByDefault: true
     hasUrls: true
-    template: _pages/_contribute.twig
+    template: _pages/_meewerken.twig
     uriFormat: contribute
 type: single
