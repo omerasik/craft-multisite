@@ -1,11 +1,15 @@
 {% extends '_layouts/_base.twig' %}
 
 {% block content %}
-    <section>
+    <section class="hero">
         {% if entry.heroImage.one() %}
-            <img src="{{ entry.heroImage.one().url }}">
+            <div class="hero__image">
+                <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.one().title }}">
+            </div>
         {% endif %}
-        <h1>{{ entry.heading }}</h1>
+        <div class="hero__content">
+            <h1 class="hero__title">{{ entry.heading }}</h1>
+        </div>
     </section>
 
     <section>
