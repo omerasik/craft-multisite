@@ -1,0 +1,48 @@
+{% extends '_layouts/_base.twig' %}
+
+{% block content %}
+    <section class="hero">
+        {% if entry.heroImage.one() %}
+            <div class="hero__image">
+                <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.one().title }}">
+            </div>
+        {% endif %}
+        <div class="hero__content">
+            <h1 class="hero__title">{{ entry.heading }}</h1>
+        </div>
+    </section>
+
+  <section>
+    <div>
+      <h2>{{ entry.subheading }}</h2>
+      <p>{{ entry.shortText }}</p>
+      {% if entry.image.one() %}
+        <img src="{{ entry.image.one().url }}" alt="{{ entry.image.one().title }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h2>{{ entry.subheading2 }}</h2>
+      <p>{{ entry.shortText2 }}</p>
+      {% if entry.image2.one() %}
+        <img src="{{ entry.image2.one().url }}" alt="{{ entry.image2.one().title }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h2>{{ entry.subheading3 }}</h2>
+      <p>{{ entry.shortText3 }}</p>
+      {% if entry.image3.one() %}
+        <img src="{{ entry.image3.one().url }}" alt="{{ entry.image3.one().title }}">
+      {% endif %}
+    </div>
+
+    <div>
+      <h2>{{ entry.subheading4 }}</h2>
+      <p>{{ entry.shortText4 }}</p>
+      {% if entry.image4.one() %}
+        <img src="{{ entry.image4.one().url }}" alt="{{ entry.image4.one().title }}">
+      {% endif %}
+    </div>
+  </section>
+{% endblock %}
