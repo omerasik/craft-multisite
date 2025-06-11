@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: b5666cda-6188-4092-8a38-590862b1867e # Diensten
+handle: diensten
+maxAuthors: 1
+name: Diensten
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  2586cd74-aa98-4355-81dd-4d3226fe9650: # Sint-Coleta
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_service.twig
+    uriFormat: diensten
+  8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_service.twig
+    uriFormat: diensten
+type: single

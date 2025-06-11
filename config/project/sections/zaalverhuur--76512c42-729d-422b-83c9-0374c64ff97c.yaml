@@ -23,6 +23,6 @@ siteSettings:
   7094e591-417f-42d9-ac11-3ab0286ae513: # Cultuur Colette
     enabledByDefault: true
     hasUrls: true
-    template: _pages/_venue.twig
+    template: _pages/_verhuur.twig
     uriFormat: zaalverhuur
 type: single

@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: facilitaireDiensten
+instructions: null
+name: 'Facilitaire Diensten'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - d5e471cf-bdf7-4e8c-a38f-c2afbef874be # facilitaireDiensten
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
