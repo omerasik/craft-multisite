@@ -1,0 +1,73 @@
+{% extends '_layouts/_base.twig' %}
+
+{% block content %}
+
+    <section class="hero">
+        {% if entry.heroImage.one() %}
+            <div class="hero__image">
+                <img src="{{ entry.heroImage.one().url }}">
+            </div>
+        {% endif %}
+        <div class="hero__content">
+            <h1 class="hero__title">{{ entry.heading }}</h1>
+        </div>
+    </section>
+
+     <section>
+        <div>
+            <h2>{{ entry.subheading }}</h2>
+            <p>{{ entry.longText }}</p>
+        </div>
+        <div>
+            {% for asset in entry.image.all() %}
+                <img src="{{ asset.url }}">
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2>{{ entry.subheading2 }}</h2>
+        <div>
+            {% for block in entry.paramedish.all() %}
+                <div>
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                    <h3>{{ block.subheading }}</h3>
+                    <p>{{ block.shortText }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2>{{ entry.subheading3 }}</h2>
+        <div>
+            {% for block in entry.zorgteam.all() %}
+                <div>
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                    <h3>{{ block.subheading }}</h3>
+                    <p>{{ block.shortText }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2>{{ entry.subheading4 }}</h2>
+        <div>
+            {% for block in entry.facilitaireDiensten.all() %}
+                <div>
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                    <h3>{{ block.subheading }}</h3>
+                    <p>{{ block.shortText }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+{% endblock %}
