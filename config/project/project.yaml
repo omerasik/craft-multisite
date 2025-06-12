@@ -1,4 +1,4 @@
-dateModified: 1749731768
+dateModified: 1749738973
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -54,6 +54,7 @@ meta:
     898c34ed-4e55-459d-80ca-b0c21dd250f4: Sfeerbeelden # Sfeerbeelden
     2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
     3784bd17-4458-4dce-9a2b-ca6755da9aea: 'Content Wonen' # Content Wonen
+    4265dbc7-a830-474d-8a3a-9aa9151007cd: 'Foto’s & Evenementen' # Foto’s & Evenementen
     04617b16-e0c7-4974-8865-b9224c05d067: 'socials url' # socials url
     5145b176-0e5e-406b-99fa-bf864b1cee77: Projects # Projects
     7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
@@ -70,8 +71,10 @@ meta:
     04427978-7710-4c5d-857b-d01e57e2bb9a: team # team
     8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
     9638457d-dcf3-4651-b110-3afb116409da: 'Copyright Text' # Copyright Text
+    57214744-3e71-4bc9-97ac-1fa93fb4f876: Contact # Contact
     77826894-cea3-4f23-9fbd-c2a4450996bb: 'Site Settings' # Site Settings
     98794487-2a00-4d81-9d35-cb811ece5b1c: 'nav target' # nav target
+    a73e8344-cdb5-4e80-b747-4bdf7c178275: Contact # Contact
     a290b2f1-4640-401c-9884-d6d2800c68a9: Diensten # Diensten
     ab4ac2b8-0348-490e-a1d8-c02351505b0c: 'About page' # About page
     ab4eba5c-a169-4046-a357-2d5daee298f3: 'Team managers' # Team managers
@@ -83,6 +86,7 @@ meta:
     bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
     bdc82978-5455-4a39-abc5-b31f114914ab: 'footer text' # footer text
     cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f: Shorttext # Shorttext
+    d09af4db-7934-4a1f-95ff-8ca0906678d9: maps # maps
     d5e471cf-bdf7-4e8c-a38f-c2afbef874be: facilitaireDiensten # facilitaireDiensten
     da9ec10f-12bc-4d3d-a81b-40f49526d5e3: NavStructuur # NavStructuur
     ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple
@@ -91,6 +95,7 @@ meta:
     e8566ad4-3060-4438-9d37-aedb39f64380: Subheading # Subheading
     e98640da-ba1f-4dd7-92ba-e1381735e573: paramedish # paramedish
     ef5f8ffc-db4a-4bde-be4c-dd9764883dc1: 'footer nav' # footer nav
+    f08bc1cf-48eb-4494-bf20-48e4944f2dd9: 'Foto’s & Evenementen' # Foto’s & Evenementen
 plugins:
   ckeditor:
     edition: standard

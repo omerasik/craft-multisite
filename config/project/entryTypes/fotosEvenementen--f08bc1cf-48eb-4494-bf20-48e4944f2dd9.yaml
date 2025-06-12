@@ -1,0 +1,85 @@
+color: null
+fieldLayouts:
+  d5e495d1-9357-4bae-a428-d83d6e818194:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-06-12T14:27:00+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e498893b-cc5e-42ef-894f-bf4bb69820ba
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-12T14:28:27+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f # Shorttext
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42dfdfa5-2615-4350-b874-9d6c1604243d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-12T14:28:27+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 550744bc-0323-48c3-aad2-7f5010e23275 # image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d98ef5df-8758-4b85-9acb-c73f90c53c97
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1a4850d1-8221-4007-89ac-e1b609c71f8f
+        userCondition: null
+handle: fotosEvenementen
+hasTitleField: true
+icon: null
+name: 'Foto’s & Evenementen'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,28 @@
+{% extends '_layouts/_base.twig' %}
+
+{% block content %}
+
+<section>
+    <h1>{{ entry.heading }}</h1>
+</section>
+
+<section>
+    <div>
+        {% if entry.maps %}
+            <div class="map-embed">
+                <iframe src="{{ entry.maps }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        {% endif %}
+    </div>
+
+    <div>
+        <h2>{{ entry.subheading }}</h2>
+            {% for block in entry.fotosEvenementen.all() %}
+                    <p>{{ block.shortText }}</p>
+                {% for asset in block.image.all() %}
+                    <img src="{{ asset.url }}">
+                {% endfor %}
+            {% endfor %}            
+    </div>
+{% endblock %}
+

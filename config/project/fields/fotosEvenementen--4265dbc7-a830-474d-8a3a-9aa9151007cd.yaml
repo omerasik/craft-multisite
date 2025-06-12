@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: fotosEvenementen
+instructions: null
+name: 'Foto’s & Evenementen'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - f08bc1cf-48eb-4494-bf20-48e4944f2dd9 # Foto’s & Evenementen
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
