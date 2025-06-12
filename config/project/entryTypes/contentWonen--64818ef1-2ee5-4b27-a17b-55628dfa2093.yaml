@@ -1,0 +1,102 @@
+color: pink
+fieldLayouts:
+  4fbb0636-b189-4eec-a785-0452cd63d875:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-06-12T12:32:32+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 092dfd17-d440-43ba-ac5e-bc36dea75e6b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-12T12:34:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e8566ad4-3060-4438-9d37-aedb39f64380 # Subheading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83c17243-bad5-4fdb-8aa8-bebde4622a11
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-12T12:34:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f # Shorttext
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d08a2efa-f20f-40fc-b3a4-dd50720d2707
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-12T12:34:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 550744bc-0323-48c3-aad2-7f5010e23275 # image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 454c2bd7-a634-495e-81a0-1948b0e16de1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 58c45ea3-5a44-4d62-9b94-3b456300385d
+        userCondition: null
+handle: contentWonen
+hasTitleField: true
+icon: cow
+name: 'Content Wonen'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

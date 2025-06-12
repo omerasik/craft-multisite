@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: zorgafbeeldingen
+instructions: null
+name: Zorgafbeeldingen
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 1d6f481a-d110-4cfe-adcd-c01f4dfad1a3 # Zorgafbeeldingen
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

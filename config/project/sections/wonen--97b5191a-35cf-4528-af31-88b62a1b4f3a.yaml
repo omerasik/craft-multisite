@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 429f9934-8cd5-47e7-bb1b-db99f2389a9e # Wonen
+handle: wonen
+maxAuthors: 1
+name: Wonen
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  8285487f-7dd3-4533-a52d-bf5cc442aeb4: # Mariahuis
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_wonen.twig
+    uriFormat: wonen
+type: single
