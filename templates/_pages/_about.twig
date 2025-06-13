@@ -29,9 +29,14 @@
 
     <sectionclass="text-section">
         <div class="container">
-      <h2 class="text-section__title">{{ entry.subheading3 }}</h2>
-      <p class="text-section__text">{{ entry.longText }}</p>
-    </div>
+            <h2 class="text-section__title">{{ entry.subheading3 }}</h2>
+            <p class="text-section__text">{{ entry.longText }}</p>
+        </div>
+        <div class="about-images">
+            {% for asset in entry.image.all() %}
+                <img src="{{ asset.url }}">
+            {% endfor %}
+        </div>
     </section>
 
     <section class="cards-section">
