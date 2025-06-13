@@ -4,70 +4,70 @@
 
 <section>
     <h1>{{ entry.heading }}</h1>
+    <div>
+        <div>
+        {% macro errorList(errors) %}
+            {% if errors %}
+                {{ ul(errors, {class: 'errors'}) }}
+            {% endif %}
+        {% endmacro %}
+        {% set submission = submission ?? null %}
+
+        <form method="post" action="" accept-charset="UTF-8" class="contact-form">
+            {{ csrfInput() }}
+            {{ actionInput('contact-form/send') }}
+            {{ redirectInput('contact') }}
+
+            <h3><label for="from-name">Naam</label></h3>
+            {{ input('text', 'fromName', submission.fromName ?? '', {
+                id: 'from-name',
+                autocomplete: 'name',
+                required: true,
+            }) }}
+            {{ submission ? _self.errorList(submission.getErrors('fromName')) }}
+
+            <h3><label for="from-email">E-mail</label></h3>
+            {{ input('email', 'fromEmail', submission.fromEmail ?? '', {
+                id: 'from-email',
+                autocomplete: 'email',
+                required: true,
+            }) }}
+            {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
+
+            <h3><label for="message">Bericht</label></h3>
+            {{ tag('textarea', {
+                text: submission.message ?? '',
+                id: 'message',
+                name: 'message',
+                rows: 10,
+                cols: 40,
+                required: true,
+            }) }}
+            {{ submission ? _self.errorList(submission.getErrors('message')) }}
+
+            <button type="submit">Verstuur</button>
+        </form>
+        </div>
+
+        <div>
+            {% if entry.maps %}
+                <div class="map-embed">
+                    <iframe src="{{ entry.maps }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            {% endif %}
+        </div>
+    </div>
 </section>
 
 <section>
-    <div>
-        {% if entry.maps %}
-            <div class="map-embed">
-                <iframe src="{{ entry.maps }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        {% endif %}
-    </div>
-
-    <div>
         <h2>{{ entry.subheading }}</h2>
+        <div>
             {% for block in entry.fotosEvenementen.all() %}
                     <p>{{ block.shortText }}</p>
                 {% for asset in block.image.all() %}
                     <img src="{{ asset.url }}">
                 {% endfor %}
-            {% endfor %}            
-    </div>
-
-
-    {% macro errorList(errors) %}
-    {% if errors %}
-        {{ ul(errors, {class: 'errors'}) }}
-    {% endif %}
-{% endmacro %}
-
-{% set submission = submission ?? null %}
-
-<form method="post" action="" accept-charset="UTF-8">
-    {{ csrfInput() }}
-    {{ actionInput('contact-form/send') }}
-    {{ redirectInput('contact') }}
-
-    <h3><label for="from-name">Naam</label></h3>
-    {{ input('text', 'fromName', submission.fromName ?? '', {
-        id: 'from-name',
-        autocomplete: 'name',
-        required: true,
-    }) }}
-    {{ submission ? _self.errorList(submission.getErrors('fromName')) }}
-
-    <h3><label for="from-email">E-mail</label></h3>
-    {{ input('email', 'fromEmail', submission.fromEmail ?? '', {
-        id: 'from-email',
-        autocomplete: 'email',
-        required: true,
-    }) }}
-    {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
-
-    <h3><label for="message">Bericht</label></h3>
-    {{ tag('textarea', {
-        text: submission.message ?? '',
-        id: 'message',
-        name: 'message',
-        rows: 10,
-        cols: 40,
-        required: true,
-    }) }}
-    {{ submission ? _self.errorList(submission.getErrors('message')) }}
-
-    <button type="submit">Verstuur</button>
-</form>
-
+            {% endfor %}   
+        </div>
+</section>
 {% endblock %}
-
