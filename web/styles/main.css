@@ -1,3 +1,4 @@
+@import url('variables.css');
 @import url('components/header.css');
 @import url('components/footer.css');
 @import url('components/hero.css');
@@ -6,12 +7,7 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: lch(21.25% 0 296.81);
   margin: 0;
   padding: 0;
 }
-
-
-
-
-
