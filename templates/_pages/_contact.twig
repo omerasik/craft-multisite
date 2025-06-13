@@ -4,7 +4,7 @@
 
 <section>
     <h1 class="hero__title">{{ entry.heading }}</h1>
-    <div class="hero__content">
+    <div class="hero__contact">
         <div>
         {% macro errorList(errors) %}
             {% if errors %}
@@ -18,34 +18,40 @@
             {{ actionInput('contact-form/send') }}
             {{ redirectInput('contact') }}
 
-            <h3><label for="from-name">Naam</label></h3>
-            {{ input('text', 'fromName', submission.fromName ?? '', {
-                id: 'from-name',
-                autocomplete: 'name',
-                required: true,
-            }) }}
-            {{ submission ? _self.errorList(submission.getErrors('fromName')) }}
+            <div class="form-group">
+                <h3><label class="form-lable" for="from-name">Naam</label></h3>
+                {{ input('text', 'fromName', submission.fromName ?? '', {
+                    id: 'from-name',
+                    autocomplete: 'name',
+                    required: true,
+                }) }}
+                {{ submission ? _self.errorList(submission.getErrors('fromName')) }}
+            </div>
 
-            <h3><label for="from-email">E-mail</label></h3>
-            {{ input('email', 'fromEmail', submission.fromEmail ?? '', {
-                id: 'from-email',
-                autocomplete: 'email',
-                required: true,
-            }) }}
-            {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
+            <div class="form-group">
+                <h3><label for="from-email">E-mail</label></h3>
+                {{ input('email', 'fromEmail', submission.fromEmail ?? '', {
+                    id: 'from-email',
+                    autocomplete: 'email',
+                    required: true,
+                }) }}
+                {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
+            </div>
 
-            <h3><label for="message">Bericht</label></h3>
-            {{ tag('textarea', {
-                text: submission.message ?? '',
-                id: 'message',
-                name: 'message',
-                rows: 10,
-                cols: 40,
-                required: true,
-            }) }}
-            {{ submission ? _self.errorList(submission.getErrors('message')) }}
+            <div class="form-group">
+                <h3><label for="message">Bericht</label></h3>
+                {{ tag('textarea', {
+                    text: submission.message ?? '',
+                    id: 'message',
+                    name: 'message',
+                    rows: 10,
+                    cols: 40,
+                    required: true,
+                }) }}
+                {{ submission ? _self.errorList(submission.getErrors('message')) }}
+            </div>
 
-            <button type="submit">Verstuur</button>
+            <button class="form-button" type="submit">Verstuur</button>
         </form>
         </div>
 
@@ -61,12 +67,14 @@
 
 <section>
         <h2>{{ entry.subheading }}</h2>
-        <div>
+        <div class="evenents">
             {% for block in entry.fotosEvenementen.all() %}
-                    <p>{{ block.shortText }}</p>
-                {% for asset in block.image.all() %}
-                    <img src="{{ asset.url }}">
-                {% endfor %}
+                    <p class="event-text">{{ block.shortText }}</p>
+                <div class="event-images">
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                </div>
             {% endfor %}   
         </div>
 </section>
