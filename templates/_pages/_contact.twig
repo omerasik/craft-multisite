@@ -3,8 +3,8 @@
 {% block content %}
 
 <section>
-    <h1>{{ entry.heading }}</h1>
-    <div>
+    <h1 class="hero__title">{{ entry.heading }}</h1>
+    <div class="hero__content">
         <div>
         {% macro errorList(errors) %}
             {% if errors %}
