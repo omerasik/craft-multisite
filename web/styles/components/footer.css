@@ -1,5 +1,4 @@
 .footer {
-    background: #f0f4f0;
     padding: 4rem 2rem 1.5rem 2rem;
     }
     
@@ -59,7 +58,6 @@
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
     font-weight: 600;
-    border-bottom: 2px solid #28a745;
     padding-bottom: 0.5rem;
     display: inline-block;
     }
@@ -84,9 +82,7 @@
     padding: 0.25rem 0;
     }
     
-    .footer__links a:hover {
-    color: #28a745;
-    }
+
     
     .footer__copyright {
     text-align: center;
@@ -94,11 +90,59 @@
     font-size: 0.9rem;
     margin-top: 3rem;
     padding: 1rem;
-    background-color: #7eae6d;
     margin-left: -2rem;
     margin-right: -2rem;
     margin-bottom: -1.5rem;
     border-radius: 6px;
+    }
+
+    body.mariahuis footer {
+        background-color: hsla(134, 61%, 41%, 0.1);
+
+        .footer__copyright {
+            background-color: #28a745;
+        }
+
+        .footer__links a:hover {
+            color: #28a745;
+        }
+
+        .footer__links h4 {
+            border-bottom: 2px solid #28a745;
+        }
+    }
+
+
+    body.sintcoleta footer {
+        background-color: hsla(22, 51%, 30%, 0.1);
+
+        .footer__copyright {
+            background-color: #754326;
+        }
+
+        .footer__links a:hover {
+            color: #754326;
+        }
+
+        .footer__links h4 {
+            border-bottom: 2px solid #754326;
+        }
+    }
+
+    body.cultuurcolette footer {
+        background-color: hsla(22, 51%, 30%, 0.1);
+
+        .footer__copyright {
+            background-color: #754326;
+        }
+
+        .footer__links a:hover {
+            color: #754326;
+        }
+
+        .footer__links h4 {
+            border-bottom: 2px solid #754326;
+        }
     }
     
     @media (max-width: 768px) {

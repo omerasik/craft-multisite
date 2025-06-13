@@ -35,29 +35,43 @@
     transition: color 0.3s ease;
   }
   
-  .header__nav-link:hover {
-    color: #28a745;
+  body.mariahuis header {
+    .header__nav-link:hover,
+    .header__nav-link.active {
+      color: #28a745;
+    }
+
+    .header__drawer-menu-link:hover,
+    .header__drawer-menu-link.active {
+      color: #28a745;
+    }
   }
+
+  body.sintcoleta header {
+    .header__nav-link:hover,
+    .header__nav-link.active {
+      color: #754326;
+    }
+
+    .header__drawer-menu-link:hover,
+    .header__drawer-menu-link.active {
+      color: #754326;
+    }
+  }
+
+  body.cultuurcolette header {
+    .header__nav-link:hover,
+    .header__nav-link.active {
+      color: #754326;
+    }
+
+    .header__drawer-menu-link:hover,
+    .header__drawer-menu-link.active {
+      color: #754326;
+    }
+}
+
   
-  .header__nav-link.active {
-    color: #28a745;
-  }
-  
-  .header__cta-button {
-    display: inline-block;
-    background-color: #28a745;
-    color: #fff !important;
-    text-decoration: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: background-color 0.3s ease;
-  }
-  
-  .header__cta-button:hover {
-    background-color: #218838;
-  }
   
   .header__menu-toggle,
   .header__drawer-nav {
@@ -146,10 +160,5 @@
       font-size: 1.25rem;
       color: #333;
       transition: color 0.3s ease;
-    }
-    
-    .header__drawer-menu-link:hover,
-    .header__drawer-menu-link.active {
-      color: #28a745;
     }
   }
