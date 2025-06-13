@@ -4,6 +4,19 @@
     padding: 0 1rem;
 }
 
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 5rem 2rem;
+    margin-bottom: 10rem;
+
+    img {
+        width: 25%;
+    }
+}
+
 .text-section {
     margin: 2rem 0;
 }
