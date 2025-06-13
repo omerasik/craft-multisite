@@ -24,5 +24,50 @@
                 {% endfor %}
             {% endfor %}            
     </div>
+
+
+    {% macro errorList(errors) %}
+    {% if errors %}
+        {{ ul(errors, {class: 'errors'}) }}
+    {% endif %}
+{% endmacro %}
+
+{% set submission = submission ?? null %}
+
+<form method="post" action="" accept-charset="UTF-8">
+    {{ csrfInput() }}
+    {{ actionInput('contact-form/send') }}
+    {{ redirectInput('contact') }}
+
+    <h3><label for="from-name">Naam</label></h3>
+    {{ input('text', 'fromName', submission.fromName ?? '', {
+        id: 'from-name',
+        autocomplete: 'name',
+        required: true,
+    }) }}
+    {{ submission ? _self.errorList(submission.getErrors('fromName')) }}
+
+    <h3><label for="from-email">E-mail</label></h3>
+    {{ input('email', 'fromEmail', submission.fromEmail ?? '', {
+        id: 'from-email',
+        autocomplete: 'email',
+        required: true,
+    }) }}
+    {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
+
+    <h3><label for="message">Bericht</label></h3>
+    {{ tag('textarea', {
+        text: submission.message ?? '',
+        id: 'message',
+        name: 'message',
+        rows: 10,
+        cols: 40,
+        required: true,
+    }) }}
+    {{ submission ? _self.errorList(submission.getErrors('message')) }}
+
+    <button type="submit">Verstuur</button>
+</form>
+
 {% endblock %}
 

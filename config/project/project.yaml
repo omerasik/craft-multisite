@@ -1,4 +1,4 @@
-dateModified: 1749815478
+dateModified: 1749819492
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -106,6 +106,13 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Mariahuis'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $CONTACT_EMAIL
   oembed:
     edition: standard
     enabled: true
