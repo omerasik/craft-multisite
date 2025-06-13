@@ -1,4 +1,4 @@
-dateModified: 1749738973
+dateModified: 1749803914
 email:
   fromEmail: akg@gmail.com
   fromName: 'multisite cms'
@@ -96,6 +96,7 @@ meta:
     e98640da-ba1f-4dd7-92ba-e1381735e573: paramedish # paramedish
     ef5f8ffc-db4a-4bde-be4c-dd9764883dc1: 'footer nav' # footer nav
     f08bc1cf-48eb-4494-bf20-48e4944f2dd9: 'Foto’s & Evenementen' # Foto’s & Evenementen
+    f2f0247a-8d41-41bc-b6b3-6f1dab00174c: class # class
 plugins:
   ckeditor:
     edition: standard
