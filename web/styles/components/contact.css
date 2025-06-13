@@ -1,0 +1,5 @@
+.hero__content {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+}
