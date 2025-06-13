@@ -1,0 +1,95 @@
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+section .zorgteam-section__items,
+section .facilitaire-section__items,
+section .paramedisch-section__items
+ {
+
+padding: 4rem 1.5rem;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+
+
+
+.intro-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.intro-gallery__images {
+  display: grid;
+  gap: 3rem;
+}
+
+.intro-gallery__images img {
+
+  height: 200px;
+
+  display: block;
+}
+.paramedisch-section__items,
+.zorgteam-section__items,
+.facilitaire-section__items {
+  display: grid;
+  gap: 2rem;
+}
+
+.paramedisch-section__items {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.zorgteam-section__items {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.facilitaire-section__items {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .intro-gallery {
+    grid-template-columns: 1fr;
+  }
+  .paramedisch-section__items,
+  .zorgteam-section__items,
+  .facilitaire-section__items {
+    grid-template-columns: 1fr;
+  }
+}

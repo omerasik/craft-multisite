@@ -4,6 +4,7 @@
 @import url('components/hero.css');
 @import url('components/about.css');
 @import url('components/contact.css');
+@import url('components/diensten.css');
 
 body {
   font-family: 'Arial', sans-serif;
