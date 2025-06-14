@@ -1,9 +1,4 @@
-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  color: #333;
-}
+
 
 section .zorgteam-section__items,
 section .facilitaire-section__items,
@@ -112,10 +107,7 @@ body.sintcoleta .intro-gallery__images img {
 }
 
 @media screen and (max-width: 768px) {
-  section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
+
 
   section .zorgteam-section__items,
   section .facilitaire-section__items,
