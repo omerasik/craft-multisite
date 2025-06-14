@@ -69,8 +69,7 @@ section .paramedisch-section__items {
 }
 
 .card img {
-  width: 100%;
-  height: 200px;
+  
   object-fit: cover;
   border-radius: 6px;
   margin-bottom: 1rem;
@@ -156,7 +155,7 @@ body.sintcoleta .intro-gallery__images img {
   }
 
   .card img {
-    width: 100%;
+
     height: 200px;
     object-fit: cover;
   }

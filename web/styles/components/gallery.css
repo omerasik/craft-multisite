@@ -1,3 +1,9 @@
+.hero__title_contact {
+text-align: center;
+margin: 3rem 0 2rem;
+padding: 0 1rem;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
