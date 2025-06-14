@@ -12,37 +12,53 @@
         </div>
     </section>
 
-  <section>
-    <div>
-      <h2>{{ entry.subheading }}</h2>
-      <p>{{ entry.shortText }}</p>
-      {% if entry.image.one() %}
-        <img src="{{ entry.image.one().url }}" alt="{{ entry.image.one().title }}">
-      {% endif %}
-    </div>
+    <section class="info-sections">
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading }}</h2>
+                <p class="info-block__text">{{ entry.shortText }}</p>
+            </div>
+            {% if entry.image.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image.one().url }}" alt="{{ entry.image.one().title }}">
+                </div>
+            {% endif %}
+        </div>
 
-    <div>
-      <h2>{{ entry.subheading2 }}</h2>
-      <p>{{ entry.shortText2 }}</p>
-      {% if entry.image2.one() %}
-        <img src="{{ entry.image2.one().url }}" alt="{{ entry.image2.one().title }}">
-      {% endif %}
-    </div>
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading2 }}</h2>
+                <p class="info-block__text">{{ entry.shortText2 }}</p>
+            </div>
+            {% if entry.image2.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image2.one().url }}" alt="{{ entry.image2.one().title }}">
+                </div>
+            {% endif %}
+        </div>
 
-    <div>
-      <h2>{{ entry.subheading3 }}</h2>
-      <p>{{ entry.shortText3 }}</p>
-      {% if entry.image3.one() %}
-        <img src="{{ entry.image3.one().url }}" alt="{{ entry.image3.one().title }}">
-      {% endif %}
-    </div>
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading3 }}</h2>
+                <p class="info-block__text">{{ entry.shortText3 }}</p>
+            </div>
+            {% if entry.image3.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image3.one().url }}" alt="{{ entry.image3.one().title }}">
+                </div>
+            {% endif %}
+        </div>
 
-    <div>
-      <h2>{{ entry.subheading4 }}</h2>
-      <p>{{ entry.shortText4 }}</p>
-      {% if entry.image4.one() %}
-        <img src="{{ entry.image4.one().url }}" alt="{{ entry.image4.one().title }}">
-      {% endif %}
-    </div>
-  </section>
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading4 }}</h2>
+                <p class="info-block__text">{{ entry.shortText4 }}</p>
+            </div>
+            {% if entry.image4.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image4.one().url }}" alt="{{ entry.image4.one().title }}">
+                </div>
+            {% endif %}
+        </div>
+    </section>
 {% endblock %}
