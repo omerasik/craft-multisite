@@ -25,16 +25,23 @@
             {% endif %}
         </div>
 
-        <div class="content-block content-block--right">
+        <div class="content-block content-block--right content-block--double-image">
             <div class="content-block__text">
                 <h2 class="content-block__title">{{ entry.subheading2 }}</h2>
                 <p class="content-block__description">{{ entry.shortText2 }}</p>
             </div>
-            {% if entry.image2.one() %}
-                <div class="content-block__image content-block__image--table">
-                    <img src="{{ entry.image2.one().url }}" alt="{{ entry.subheading2 }}">
-                </div>
-            {% endif %}
+            <div class="content-block__images">
+                {% if entry.image2.one() %}
+                    <div class="content-block__image content-block__image--table">
+                        <img src="{{ entry.image2.one().url }}" alt="{{ entry.subheading2 }}">
+                    </div>
+                {% endif %}
+                {% if entry.image3.one() %}
+                    <div class="content-block__image content-block__image--logo">
+                        <img src="{{ entry.image3.one().url }}" alt="{{ entry.subheading2 }}">
+                    </div>
+                {% endif %}
+            </div>
         </div>
 
         <div class="content-block content-block--left">
