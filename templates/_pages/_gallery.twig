@@ -2,11 +2,11 @@
 
 {% block content %}
     <section>
-        <h1>{{ entry.heading }}</h1>
+        <h1 class="hero__title">{{ entry.heading }}</h1>
 
-        <div>
+        <div class="gallery">
             {% for image in entry.sfeerImages.all() %}
-                <img src="{{ image.url }}" alt="{{ image.title }}">
+                <img src="{{ image.url }}">
             {% endfor %}
         </div>
     </section>
