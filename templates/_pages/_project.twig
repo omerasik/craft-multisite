@@ -12,65 +12,69 @@
         </div>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <h2>{{ entry.subheading }}</h2>
-                <p>{{ entry.shortText }}</p>
+    <section class="content-sections">
+        <div class="content-block content-block--left">
+            <div class="content-block__text">
+                <h2 class="content-block__title">{{ entry.subheading }}</h2>
+                <p class="content-block__description">{{ entry.shortText }}</p>
             </div>
             {% if entry.image.one() %}
-                <img src="{{ entry.image.one().url }}">
-            {% endif %}
-        </div>
-
-        <div>
-            <div>
-                <div>
-                    <h2>{{ entry.subheading2 }}</h2>
-                    <p>{{ entry.shortText2 }}</p>
+                <div class="content-block__image">
+                    <img src="{{ entry.image.one().url }}" alt="{{ entry.subheading }}">
                 </div>
-                {% if entry.image2.one() %}
-                    <img src="{{ entry.image2.one().url }}">
-                {% endif %}
-            </div>
-            {% if entry.image3.one() %}
-                <img src="{{ entry.image3.one().url }}">
             {% endif %}
         </div>
 
-        <div>
-            <div>
-                <h2>{{ entry.subheading3 }}</h2>
-                <p>{{ entry.shortText3 }}</p>
+        <div class="content-block content-block--right">
+            <div class="content-block__text">
+                <h2 class="content-block__title">{{ entry.subheading2 }}</h2>
+                <p class="content-block__description">{{ entry.shortText2 }}</p>
+            </div>
+            {% if entry.image2.one() %}
+                <div class="content-block__image content-block__image--table">
+                    <img src="{{ entry.image2.one().url }}" alt="{{ entry.subheading2 }}">
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="content-block content-block--left">
+            <div class="content-block__text">
+                <h2 class="content-block__title">{{ entry.subheading3 }}</h2>
+                <p class="content-block__description">{{ entry.shortText3 }}</p>
             </div>
             {% if entry.image4.one() %}
-                <img src="{{ entry.image4.one().url }}">
+                <div class="content-block__image">
+                    <img src="{{ entry.image4.one().url }}" alt="{{ entry.subheading3 }}">
+                </div>
             {% endif %}
         </div>
 
-        <div>
-            {% for asset in entry.image5.all() %}
-                <img src="{{ asset.url }}">
-            {% endfor %}
-        </div>
-
-        <div>
-            <div>
-                <h2>{{ entry.subheading4 }}</h2>
-                <p>{{ entry.shortText4 }}</p>
+        {% if entry.subheading4 %}
+        <div class="content-block content-block--right">
+            <div class="content-block__text">
+                <h2 class="content-block__title">{{ entry.subheading4 }}</h2>
+                <p class="content-block__description">{{ entry.shortText4 }}</p>
             </div>
             {% if entry.image6.one() %}
-                <img src="{{ entry.image6.one().url }}">
+                <div class="content-block__image">
+                    <img src="{{ entry.image6.one().url }}" alt="{{ entry.subheading4 }}">
+                </div>
             {% endif %}
         </div>
+        {% endif %}
 
-        <div>
-            <div>
-                <h2>{{ entry.subheading5 }}</h2>
-                <p>{{ entry.shortText5 }}</p>
+        {% if entry.subheading5 %}
+        <div class="content-block content-block--left">
+            <div class="content-block__text">
+                <h2 class="content-block__title">{{ entry.subheading5 }}</h2>
+                <p class="content-block__description">{{ entry.shortText5 }}</p>
             </div>
             {% if entry.image7.one() %}
-                <img src="{{ entry.image7.one().url }}">
+                <div class="content-block__image">
+                    <img src="{{ entry.image7.one().url }}" alt="{{ entry.subheading5 }}">
+                </div>
             {% endif %}
         </div>
+        {% endif %}
+    </section>
 {% endblock %}
