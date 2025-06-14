@@ -13,39 +13,41 @@
         </div>
     </section>
 
-    <section>
-        <h2>{{ entry.subheading }}</h2>
-        <div>
-            <p>{{ entry.longText }}</p>
-            <p>{{ entry.longText2 }}</p>
-        </div>
-    </section>
+    <main class="wonen-content">
+        <section class="prijzen">
+            <h2>{{ entry.subheading }}</h2>
+            <div>
+                <p>{{ entry.longText }}</p>
+                <p>{{ entry.longText2 }}</p>
+            </div>
+        </section>
 
-     <section>
-            {% for block in entry.contentWonen.all() %}
-                <div>                    
-                    <h2>{{ block.subheading }}</h2>
-                    <p>{{ block.shortText }}</p>
-                </div>
-                {% for asset in block.image.all() %}
-                    <img src="{{ asset.url }}">
-                {% endfor %}
-            {% endfor %}            
-    </section>
+        <section>
+                {% for block in entry.contentWonen.all() %}
+                    <div>                    
+                        <h2>{{ block.subheading }}</h2>
+                        <p>{{ block.shortText }}</p>
+                    </div>
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                {% endfor %}            
+        </section>
 
-    <section>
-        <h2>{{ entry.subheading2 }}</h2>
-        <div>
-            {% for block in entry.zorgafbeeldingen.all() %}
-                <div>                    
-                    <h3>{{ block.subheading }}</h3>
-                    <p>{{ block.shortText }}</p>
-                </div>
-                {% for asset in block.image.all() %}
-                    <img src="{{ asset.url }}">
+        <section>
+            <h2>{{ entry.subheading2 }}</h2>
+            <div>
+                {% for block in entry.zorgafbeeldingen.all() %}
+                    <div>                    
+                        <h3>{{ block.subheading }}</h3>
+                        <p>{{ block.shortText }}</p>
+                    </div>
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
                 {% endfor %}
-            {% endfor %}
-        </div>
-    </section>
+            </div>
+        </section>
+    </main>
 
 {% endblock %}
