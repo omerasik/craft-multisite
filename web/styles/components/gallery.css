@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 1rem;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 2rem;
+    }
+}
