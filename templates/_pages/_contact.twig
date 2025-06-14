@@ -65,8 +65,8 @@
     </div>
 </section>
 
-<section>
-        <h2>{{ entry.subheading }}</h2>
+<section class="events">
+        <h2 class="event-title">{{ entry.subheading }}</h2>
         <div class="evenents">
             {% for block in entry.fotosEvenementen.all() %}
                     <p class="event-text">{{ block.shortText }}</p>
