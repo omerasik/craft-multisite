@@ -1,7 +1,7 @@
 {% extends '_layouts/_base.twig' %}
-
+ 
 {% block content %}
-
+ 
     <section class="hero">
         {% if entry.heroImage.one() %}
             <div class="hero__image">
@@ -12,42 +12,40 @@
             <h1 class="hero__title">{{ entry.heading }}</h1>
         </div>
     </section>
-
-    <main class="wonen-content">
-        <section class="prijzen">
-            <h2>{{ entry.subheading }}</h2>
-            <div>
-                <p>{{ entry.longText }}</p>
-                <p>{{ entry.longText2 }}</p>
-            </div>
-        </section>
-
-        <section>
-                {% for block in entry.contentWonen.all() %}
-                    <div>                    
-                        <h2>{{ block.subheading }}</h2>
-                        <p>{{ block.shortText }}</p>
-                    </div>
+ 
+    <section class="kort-accom-section">
+        {% for block in entry.contentWonen.all() %}
+            <div class="kort-accom-block">
+                <div class="kort-accom-text">
+                    <h2>{{ block.subheading }}</h2>
+                    <p>{{ block.shortText }}</p>
+                </div>
+                <div class="kort-accom-image">
                     {% for asset in block.image.all() %}
-                        <img src="{{ asset.url }}">
+                        <img src="{{ asset.url }}" alt="{{ asset.title ?? '' }}">
                     {% endfor %}
-                {% endfor %}            
-        </section>
-
-        <section>
-            <h2>{{ entry.subheading2 }}</h2>
-            <div>
-                {% for block in entry.zorgafbeeldingen.all() %}
-                    <div>                    
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+ 
+    <section class="zorg-section">
+        <h2>{{ entry.subheading2 }}</h2>
+        <div class="zorg-blocks">
+            {% for block in entry.zorgafbeeldingen.all() %}
+                <div class="zorg-block">
+                    <div class="zorg-block__content">
                         <h3>{{ block.subheading }}</h3>
                         <p>{{ block.shortText }}</p>
                     </div>
-                    {% for asset in block.image.all() %}
-                        <img src="{{ asset.url }}">
-                    {% endfor %}
-                {% endfor %}
-            </div>
-        </section>
-    </main>
-
+                    <div class="zorg-block__image">
+                        {% for asset in block.image.all() %}
+                            <img src="{{ asset.url }}" alt="{{ asset.title ?? '' }}">
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+ 
 {% endblock %}
