@@ -54,10 +54,13 @@ composer install
   ```
   .ddev/db_snapshots/
   ```
-- DDEV importeert de snapshot automatisch bij `ddev start`.
+- DDEV importeert de snapshot automatisch bij
+```bash
+ ddev start
+ ```
 - Handmatig importeren kan ook:
-  ```
-  bash ddev import-db --src=.ddev/db_snapshots/project-2-werkstuk-akg.sql.gz
+  ```bash
+  ddev import-db --src=.ddev/db_snapshots/project-2-werkstuk-akg.sql.gz
   ```  
  
 ### 5. Toegang tot de site
