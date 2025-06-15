@@ -1,17 +1,14 @@
-@import url('reset.css');
-
-
 @import url('components/header.css');
 @import url('components/footer.css');
 @import url('components/hero.css');
-@import url('pages/about.css');
-@import url('pages/contact.css');
-@import url('pages/diensten.css');
-@import url('pages/meewerken.css');
-@import url('pages/gallery.css');
-@import url('pages/verhuur.css');
-@import url('pages/projects.css');
-@import url('pages/wonen.css');
+@import url('components/about.css');
+@import url('components/contact.css');
+@import url('components/diensten.css');
+@import url('components/meewerken.css');
+@import url('components/gallery.css');
+@import url('components/verhuur.css');
+@import url('components/projects.css');
+@import url('components/wonen.css');
 
 
 body {
