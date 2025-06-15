@@ -13,14 +13,14 @@
         </div>
     </section>
  
-    <section class="kort-accom-section">
+    <section class="short-accom-section">
         {% for block in entry.contentWonen.all() %}
-            <div class="kort-accom-block">
-                <div class="kort-accom-text">
+            <div class="short-accom-block">
+                <div class="short-accom-text">
                     <h2>{{ block.subheading }}</h2>
                     <p>{{ block.shortText }}</p>
                 </div>
-                <div class="kort-accom-image">
+                <div class="short-accom-image">
                     {% for asset in block.image.all() %}
                         <img src="{{ asset.url }}" alt="{{ asset.title ?? '' }}">
                     {% endfor %}
@@ -29,16 +29,16 @@
         {% endfor %}
     </section>
  
-    <section class="zorg-section">
+    <section class="care-section">
         <h2>{{ entry.subheading2 }}</h2>
-        <div class="zorg-blocks">
+        <div class="care-blocks">
             {% for block in entry.zorgafbeeldingen.all() %}
-                <div class="zorg-block">
-                    <div class="zorg-block__content">
+                <div class="care-block">
+                    <div class="care-block__content">
                         <h3>{{ block.subheading }}</h3>
                         <p>{{ block.shortText }}</p>
                     </div>
-                    <div class="zorg-block__image">
+                    <div class="care-block__image">
                         {% for asset in block.image.all() %}
                             <img src="{{ asset.url }}" alt="{{ asset.title ?? '' }}">
                         {% endfor %}
