@@ -3,12 +3,6 @@
 {% block content %}
 <h1 class="hero__title2">{{ entry.heading }}</h1>
 
-    <section>
-        <div class="gallery">
-            {% for image in entry.sfeerImages.all() %}
-                <img src="{{ image.url }}">
-            {% endfor %}
-        </div>
-    </section>
+{% include '_components/_gallery.twig' %}
 
 {% endblock %}
