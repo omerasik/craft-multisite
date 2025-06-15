@@ -1,9 +1,9 @@
 {% extends '_layouts/_base.twig' %}
 
 {% block content %}
-    <section>
-        <h1 class="hero__title_gallery">{{ entry.heading }}</h1>
+<h1 class="hero__title2">{{ entry.heading }}</h1>
 
+    <section>
         <div class="gallery">
             {% for image in entry.sfeerImages.all() %}
                 <img src="{{ image.url }}">
