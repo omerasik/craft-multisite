@@ -114,10 +114,10 @@ border-bottom: 2px solid #28a745;
 
 
 body.sintcoleta footer {
-background-color: hsla(22, 51%, 30%, 0.1);
+background-color: hsla(22, 30%, 40%, 0.1);
 
 .footer__copyright {
-background-color: #754326;
+background-color: #ab826a;
 }
 
 .footer__links a:hover {
@@ -125,7 +125,7 @@ color: #754326;
 }
 
 .footer__links h4 {
-border-bottom: 2px solid #754326;
+border-bottom: 2px solid #ab826a;
 }
 }
 
