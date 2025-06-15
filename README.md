@@ -55,9 +55,9 @@ composer install
   .ddev/db_snapshots/
   ```
 - DDEV importeert de snapshot automatisch bij
-```bash
- ddev start
- ```
+    ```bash
+    ddev start
+    ```
 - Handmatig importeren kan ook:
   ```bash
   ddev import-db --src=.ddev/db_snapshots/project-2-werkstuk-akg.sql.gz
@@ -77,11 +77,12 @@ php craft migrate/all
 exit
 ```  
 - **Cache legen:**
-  ```bash
-ddev ssh
-php craft clear-caches/all
-exit
-```  
+    ```bash
+    ddev ssh
+    php craft clear-caches/all
+    exit
+    ```  
 - **Project stoppen:**
-  ```bash
-ddev stop
+    ```bash
+    ddev stop
+    ``` 
