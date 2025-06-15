@@ -13,7 +13,7 @@
                 </div>
                 <div class="short-accom-image">
                     {% for asset in block.image.all() %}
-                        <img src="{{ asset.url }}" alt="{{ asset.title ?? '' }}">
+                        <img src="{{ asset.url }}">
                     {% endfor %}
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="care-block__image">
                         {% for asset in block.image.all() %}
-                            <img src="{{ asset.url }}" alt="{{ asset.title ?? '' }}">
+                            <img src="{{ asset.url }}">
                         {% endfor %}
                     </div>
                 </div>
