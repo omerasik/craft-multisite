@@ -69,20 +69,7 @@ composer install
 - **Cultuur-colette** : `https://project-2-werkstuk-akg.ddev.site/cultuur-colette`
 - **Admin URL:** `https://project-2-werkstuk-akg.ddev.site/admin`
  
-### 6. Handige commando’s
-- **Craft-migraties draaien:**
-  ```bash
-ddev ssh
-php craft migrate/all
-exit
-```  
-- **Cache legen:**
-    ```bash
-    ddev ssh
-    php craft clear-caches/all
-    exit
-    ```  
-- **Project stoppen:**
-    ```bash
-    ddev stop
-    ``` 
+### AUTHORS
+- [Gökhan Güner](https://github.com/Gokusan453)
+- [Ömer Faruk Asik](https://github.com/omerasik)
+- Serdar Karaman
