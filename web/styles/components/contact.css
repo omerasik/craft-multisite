@@ -1,3 +1,9 @@
+.hero__title2 {
+    text-align: left;
+    margin: 6rem 8rem;
+    font-size: 3rem;
+}
+
 .hero__contact {
     display: flex;
     flex-direction: row;
@@ -35,6 +41,7 @@ body.mariahuis {
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
+
     .form-button:hover {
         background-color: #28a745a7;
     }
@@ -50,6 +57,7 @@ body.mariahuis {
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
+
     .form-button:hover {
         background-color: #754326a7;
     }
@@ -65,6 +73,7 @@ body.mariahuis {
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
+
     .form-button:hover {
         background-color: #754326a7;
     }
