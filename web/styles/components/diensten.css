@@ -1,182 +1,79 @@
-
-
-section .zorgteam-section__items,
-section .facilitaire-section__items,
-section .paramedisch-section__items {
-  padding: 4rem 1.5rem;
-  max-width: 90vw;
-  margin: 0 auto;
+.section {
+  padding: 60px 100px;
 }
-
-.intro-gallery {
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.section-intro {
+  max-width: 700px;
+  margin-bottom: 2rem;
+  color: #555;
+  line-height: 1.6;
+}
+ 
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: start;
+  gap: 30px;
 }
-
-.intro-gallery__images {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-  align-items: start;
+.images {
+  grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
 }
-
-.intro-gallery__images img:first-child {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: contain;
+.cards {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
-
-.intro-gallery__images img:last-child {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
-  align-self: start;
-}
-
-.paramedisch-section__items,
-.zorgteam-section__items,
-.facilitaire-section__items {
-  display: grid;
-  gap: 2rem;
-}
-
-.paramedisch-section__items {
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-}
-
-.zorgteam-section__items {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.facilitaire-section__items {
-  grid-template-columns: repeat(2, 1fr);
-}
-
+ 
 .card {
   background: #fff;
-  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
-
-.card img {
-  
+.card-image img {
+  width: 100%;
+  height: 180px;
   object-fit: cover;
-  border-radius: 6px;
-  margin-bottom: 1rem;
 }
-
-.card h3 {
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.card-title {
   font-size: 1.25rem;
+  font-weight: 600;
   margin-bottom: 0.75rem;
   color: #222;
 }
-
-.card p {
+.card-text {
   font-size: 0.95rem;
   color: #555;
   line-height: 1.5;
+  flex-grow: 1;
 }
-
-body.sintcoleta .intro-gallery {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-}
-
-body.sintcoleta .intro-gallery__text {
-  flex: 1;
-}
-
-body.sintcoleta .intro-gallery__images {
-  width: 300px;
-  flex-shrink: 0;
-  margin-bottom: 5rem;
-  display: block;
-}
-
-body.sintcoleta .intro-gallery__images img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-}
-
-@media screen and (max-width: 768px) {
-
-
-  section .zorgteam-section__items,
-  section .facilitaire-section__items,
-  section .paramedisch-section__items {
-    padding: 2rem 1rem;
-    max-width: 100vw;
+ 
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 10px;
   }
-
-  .intro-gallery {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  .page-title {
+    font-size: 2rem;
   }
-
-  .intro-gallery__images {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  .section {
+    padding: 40px 20px;
   }
-
-  .intro-gallery__images img:first-child {
-    max-height: 300px;
+  .section-title {
+    font-size: 1.75rem;
   }
-
-  .intro-gallery__images img:last-child {
-    max-width: 120px;
-    margin: 0 auto;
+  .grid {
+    gap: 20px;
   }
-
-  .paramedisch-section__items,
-  .zorgteam-section__items,
-  .facilitaire-section__items {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .card {
-    padding: 1rem;
-  }
-
-  .card img {
-
-    height: 200px;
-    object-fit: cover;
-  }
-
-  .card h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .card p {
-    font-size: 0.9rem;
-  }
-
-  body.sintcoleta .intro-gallery {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  body.sintcoleta .intro-gallery__text {
-    width: 100%;
-  }
-
-  body.sintcoleta .intro-gallery__images {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  body.sintcoleta .intro-gallery__images img {
-    height: auto;
-    margin-bottom: 1rem;
+  .card-image img {
+    height: 140px;
   }
 }

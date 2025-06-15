@@ -1,7 +1,7 @@
 {% extends '_layouts/_base.twig' %}
-
+ 
 {% block content %}
-
+ 
   <section class="hero">
     {% if entry.heroImage.one() %}
       <div class="hero__image">
@@ -12,62 +12,76 @@
       <h1 class="hero__title">{{ entry.heading }}</h1>
     </div>
   </section>
-
-  <section class="intro-gallery">
-    <div class="intro-gallery__text">
-      <h2>{{ entry.subheading }}</h2>
-      <p>{{ entry.longText }}</p>
+ 
+<section class="section medical">
+  <h2 class="section-title">{{ entry.subheading }}</h2>
+  {% if entry.longText %}
+  <p class="section-intro">{{ entry.longText }}</p>
+  {% endif %}
+  <div class="grid images">
+    {% for asset in entry.image.all() %}
+    <div class="grid-item">
+      <img src="{{ asset.url }}" alt="{{ asset.title }}">
     </div>
-    <div class="intro-gallery__images">
-      {% for asset in entry.image.all() %}
-        <img src="{{ asset.url }}">
-      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+ 
+<section class="section paramedical">
+  <h2 class="section-title">{{ entry.subheading2 }}</h2>
+  <div class="grid cards">
+    {% for block in entry.paramedish.all() %}
+    <div class="card">
+      {% if block.image.one() %}
+      <div class="card-image">
+        <img src="{{ block.image.one().url }}" alt="{{ block.image.one().title }}">
+      </div>
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title">{{ block.subheading }}</h3>
+        <p class="card-text">{{ block.shortText }}</p>
+      </div>
     </div>
-  </section>
-
-  <section class="paramedisch-section">
-    <h2>{{ entry.subheading2 }}</h2>
-    <div class="paramedisch-section__items">
-      {% for block in entry.paramedish.all() %}
-        <div class="card">
-          {% for asset in block.image.all() %}
-            <img src="{{ asset.url }}">
-          {% endfor %}
-          <h3>{{ block.subheading }}</h3>
-          <p>{{ block.shortText }}</p>
-        </div>
-      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+ 
+<section class="section careteams">
+  <h2 class="section-title">{{ entry.subheading3 }}</h2>
+  <div class="grid cards">
+    {% for block in entry.zorgteam.all() %}
+    <div class="card">
+      {% if block.image.one() %}
+      <div class="card-image">
+        <img src="{{ block.image.one().url }}" alt="{{ block.image.one().title }}">
+      </div>
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title">{{ block.subheading }}</h3>
+        <p class="card-text">{{ block.shortText }}</p>
+      </div>
     </div>
-  </section>
-
-  <section class="zorgteam-section">
-    <h2>{{ entry.subheading3 }}</h2>
-    <div class="zorgteam-section__items">
-      {% for block in entry.zorgteam.all() %}
-        <div class="card">
-          {% for asset in block.image.all() %}
-            <img src="{{ asset.url }}">
-          {% endfor %}
-          <h3>{{ block.subheading }}</h3>
-          <p>{{ block.shortText }}</p>
-        </div>
-      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+ 
+<section class="section facilities">
+  <h2 class="section-title">{{ entry.subheading4 }}</h2>
+  <div class="grid cards">
+    {% for block in entry.facilitaireDiensten.all() %}
+    <div class="card">
+      {% if block.image.one() %}
+      <div class="card-image">
+        <img src="{{ block.image.one().url }}" alt="{{ block.image.one().title }}">
+      </div>
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title">{{ block.subheading }}</h3>
+        <p class="card-text">{{ block.shortText }}</p>
+      </div>
     </div>
-  </section>
-
-  <section class="facilitaire-section">
-    <h2>{{ entry.subheading4 }}</h2>
-    <div class="facilitaire-section__items">
-      {% for block in entry.facilitaireDiensten.all() %}
-        <div class="card">
-          {% for asset in block.image.all() %}
-            <img src="{{ asset.url }}">
-          {% endfor %}
-          <h3>{{ block.subheading }}</h3>
-          <p>{{ block.shortText }}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
-
+    {% endfor %}
+  </div>
+</section>
+ 
 {% endblock %}
