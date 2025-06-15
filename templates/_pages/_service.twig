@@ -2,16 +2,7 @@
  
 {% block content %}
  
-  <section class="hero">
-    {% if entry.heroImage.one() %}
-      <div class="hero__image">
-        <img src="{{ entry.heroImage.one().url }}">
-      </div>
-    {% endif %}
-    <div class="hero__content">
-      <h1 class="hero__title">{{ entry.heading }}</h1>
-    </div>
-  </section>
+  {% include '_components/_hero.twig' %}
  
 <section class="section medical">
   <h2 class="section-title">{{ entry.subheading }}</h2>

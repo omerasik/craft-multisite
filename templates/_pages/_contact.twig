@@ -5,63 +5,8 @@
 
 <section>
     <div class="hero__contact">
-        <div>
-        {% macro errorList(errors) %}
-            {% if errors %}
-                {{ ul(errors, {class: 'errors'}) }}
-            {% endif %}
-        {% endmacro %}
-        {% set submission = submission ?? null %}
-
-        <form method="post" action="" accept-charset="UTF-8" class="contact-form">
-            {{ csrfInput() }}
-            {{ actionInput('contact-form/send') }}
-            {{ redirectInput('contact') }}
-
-            <div class="form-group">
-                <h3><label class="form-lable" for="from-name">Naam</label></h3>
-                {{ input('text', 'fromName', submission.fromName ?? '', {
-                    id: 'from-name',
-                    autocomplete: 'name',
-                    required: true,
-                }) }}
-                {{ submission ? _self.errorList(submission.getErrors('fromName')) }}
-            </div>
-
-            <div class="form-group">
-                <h3><label for="from-email">E-mail</label></h3>
-                {{ input('email', 'fromEmail', submission.fromEmail ?? '', {
-                    id: 'from-email',
-                    autocomplete: 'email',
-                    required: true,
-                }) }}
-                {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
-            </div>
-
-            <div class="form-group">
-                <h3><label for="message">Bericht</label></h3>
-                {{ tag('textarea', {
-                    text: submission.message ?? '',
-                    id: 'message',
-                    name: 'message',
-                    rows: 10,
-                    cols: 40,
-                    required: true,
-                }) }}
-                {{ submission ? _self.errorList(submission.getErrors('message')) }}
-            </div>
-
-            <button class="form-button" type="submit">Verstuur</button>
-        </form>
-        </div>
-
-        <div>
-            {% if entry.maps %}
-                <div class="map-embed">
-                    <iframe src="{{ entry.maps }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            {% endif %}
-        </div>
+    {% include '_components/_form.twig' %}
+    {% include '_components/_maps.twig' %}
     </div>
 </section>
 
