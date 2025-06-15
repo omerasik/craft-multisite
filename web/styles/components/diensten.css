@@ -1,17 +1,18 @@
 .section {
-  padding: 60px 100px;
+  margin: 4rem 6rem;
 }
+
 .section-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #333;
+  font-size: 1.75rem;
+  margin: 5rem 0rem 3rem 0rem;
+  text-align: left;
 }
+
 .section-intro {
-  max-width: 700px;
+  display: flex;
+  flex-direction: row;
   margin-bottom: 2rem;
   color: #555;
-  line-height: 1.6;
 }
  
 .grid {
@@ -25,24 +26,28 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
  
-.card {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.card-service {
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
+
 .card-image img {
-  width: 100%;
-  height: 180px;
   object-fit: cover;
 }
+
+.card-image {
+  width: 40%;
+  margin-right: 20px;
+}
+
 .card-body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  width: 55%;
 }
 .card-title {
   font-size: 1.25rem;
@@ -54,7 +59,6 @@
   font-size: 0.95rem;
   color: #555;
   line-height: 1.5;
-  flex-grow: 1;
 }
  
 @media (max-width: 768px) {
