@@ -1,5 +1,4 @@
-# Project-2-werkstuk-akg
- 
+# craft-multisite
 ## Overzicht
 Dit project is gebouwd met **Craft CMS** als hoofdcontentmanagementsysteem, met een lokaal ontwikkelomgeving opgezet via **Docker**, **DDEV** en **Composer**. We hebben Twig-templates gebruikt voor dynamische pagina’s, responsive design toegepast met CSS Grid en Flexbox, en minimal JavaScript voor interactieve elementen.
  
